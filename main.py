@@ -379,7 +379,7 @@ def scoreboard():
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
-        MENU_TEXT = get_font(50).render("SCOREBOARD", True, "000000")
+        MENU_TEXT = get_font(50).render("SCOREBOARD", True, "#000000")
         MENU_RECT = MENU_TEXT.get_rect(center=(400, 100))
   
         BACK_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 650), 
