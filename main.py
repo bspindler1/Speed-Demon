@@ -5,7 +5,7 @@ import time
 import math
 pygame.init()
 
-GRASS = scale_image(pygame.image.load("imgs/grass.jpg"), 2.5)
+
 TRACK = scale_image(pygame.image.load("imgs/track.png"), 0.9)
 WIDTH, HEIGHT = TRACK.get_width(), TRACK.get_height()
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -17,15 +17,18 @@ pygame.display.set_caption("Menu")
 BGMM = scale_image(pygame.image.load("assets/Background-MM.png"), 1.2)
 BGO = scale_image(pygame.image.load("assets/Background-O.JPG"), 1.2)
 BGP = scale_image(pygame.image.load("assets/Background-P.JPG"), 1.2)
+BGS = scale_image(pygame.image.load("assets/Background-S.JPG"), 1.2)
+BGC = scale_image(pygame.image.load("imgs/mechanics.JPG"), 2.5)
 
 
 
 def get_font(size): # Returns Press-Start-2P in the desired size
     return pygame.font.Font("assets/font.ttf", size)
 
-def play():
+def play(background, car_colour):
   pygame.font.init()
-  GRASS = scale_image(pygame.image.load("imgs/grass.jpg"), 2.5)
+  BACKGROUND = background
+
   TRACK = scale_image(pygame.image.load("imgs/track.png"), 0.9)
 
   TRACK_BORDER = scale_image(pygame.image.load("imgs/track-border.png"), 0.9)
@@ -35,12 +38,13 @@ def play():
   FINISH_MASK = pygame.mask.from_surface(FINISH)
   FINISH_POSITION = (130, 250)
 
-  RED_CAR = scale_image(pygame.image.load("imgs/red-car.png"), 0.55)
+  
+  CAR_COLOUR = car_colour
   GREEN_CAR = scale_image(pygame.image.load("imgs/green-car.png"), 0.55)
 
   WIDTH, HEIGHT = TRACK.get_width(), TRACK.get_height()
   WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-  pygame.display.set_caption("Racing Game!")
+  pygame.display.set_caption("Speed Demon")
 
   MAIN_FONT = pygame.font.SysFont("comicsans", 44)
 
@@ -49,7 +53,7 @@ def play():
 
 
   class GameInfo:
-      LEVELS = 10
+      LEVELS = 4
 
       def __init__(self, level=1):
           self.level = level
@@ -126,7 +130,7 @@ def play():
 
 
   class PlayerCar(AbstractCar):
-      IMG = RED_CAR
+      IMG = CAR_COLOUR
       START_POS = (180, 200)
 
       def reduce_speed(self):
@@ -268,7 +272,7 @@ def play():
 
   run = True
   clock = pygame.time.Clock()
-  images = [(GRASS, (0, 0)), (TRACK, (0, 0)),
+  images = [(BACKGROUND, (0, 0)), (TRACK, (0, 0)),
             (FINISH, FINISH_POSITION), (TRACK_BORDER, (0, 0))]
   player_car = PlayerCar(4, 4)
   computer_car = ComputerCar(2, 4, PATH)
@@ -298,7 +302,7 @@ def play():
 
       if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_ESCAPE:
-          ingame_menu()
+          ingame_menu(background, car_colour)
 
         
       move_player(player_car)
@@ -315,34 +319,86 @@ def play():
 
 
   pygame.quit()
-    
-def options():
+
+def customize():
+
     while True:
-        OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
+        SCREEN.blit(BGC, (-500, -50))
 
-        SCREEN.fill("white")
+        MENU_MOUSE_POS = pygame.mouse.get_pos()
 
-        OPTIONS_TEXT = get_font(10).render("This is the OPTIONS screen.", True, "Black")
-        OPTIONS_RECT = OPTIONS_TEXT.get_rect(center=(400, 100))
-        SCREEN.blit(OPTIONS_TEXT, OPTIONS_RECT)
+        MENU_TEXT = get_font(50).render("CUSTOMIZE", True, "#000000")
+        MENU_RECT = MENU_TEXT.get_rect(center=(400, 100))
 
-        OPTIONS_BACK = Button(image=None, pos=(400, 200), 
-                            text_input="BACK", font=get_font(10), base_color="Black", hovering_color="Green")
+        RED_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 250), 
+                            text_input="RED CAR", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        PURPLE_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 350), 
+                            text_input="PURPLE CAR", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        GREY_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 450), 
+                            text_input="GREY CAR", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        WHITE_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 550), 
+                            text_input="WHITE CAR", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        BACK_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 650), 
+                            text_input="BACK", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
 
-        OPTIONS_BACK.changeColor(OPTIONS_MOUSE_POS)
-        OPTIONS_BACK.update(SCREEN)
+        SCREEN.blit(MENU_TEXT, MENU_RECT)
 
+        for button in [RED_BUTTON, PURPLE_BUTTON, GREY_BUTTON, WHITE_BUTTON, BACK_BUTTON]:
+            button.changeColor(MENU_MOUSE_POS)
+            button.update(SCREEN)
+        
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
-                if OPTIONS_BACK.checkForInput(OPTIONS_MOUSE_POS):
+                if RED_BUTTON.checkForInput(MENU_MOUSE_POS):
+                   car_colour = scale_image(pygame.image.load("imgs/red-car.png"), 0.55)
+                   circuit_menu(car_colour)
+                    
+                if PURPLE_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    car_colour = scale_image(pygame.image.load("imgs/purple-car.png"), 0.55)
+                    circuit_menu(car_colour)
+                    
+                if GREY_BUTTON.checkForInput(MENU_MOUSE_POS):
+                   car_colour = scale_image(pygame.image.load("imgs/grey-car.png"), 0.55)
+                   circuit_menu(car_colour)
+                if WHITE_BUTTON.checkForInput(MENU_MOUSE_POS):
+                   car_colour = scale_image(pygame.image.load("imgs/white-car.png"), 0.55)
+                   circuit_menu(car_colour)
+                if BACK_BUTTON.checkForInput(MENU_MOUSE_POS):
                     main_menu()
+                    
 
         pygame.display.update()
 
 
+def scoreboard():
+    while True:
+        SCREEN.blit(BGS, (-500, -50))
+
+        MENU_MOUSE_POS = pygame.mouse.get_pos()
+
+        MENU_TEXT = get_font(50).render("SCOREBOARD", True, "000000")
+        MENU_RECT = MENU_TEXT.get_rect(center=(400, 100))
+  
+        BACK_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 650), 
+                            text_input="BACK", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        SCREEN.blit(MENU_TEXT, MENU_RECT)
+
+        for button in [BACK_BUTTON]:
+            button.changeColor(MENU_MOUSE_POS)
+            button.update(SCREEN)
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            if event.type == pygame.MOUSEBUTTONDOWN:          
+                if BACK_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    main_menu()
+
+        pygame.display.update()
 
 def main_menu():
     while True:
@@ -350,19 +406,19 @@ def main_menu():
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
-        MENU_TEXT = get_font(50).render("MAIN MENU", True, "#b68f40")
+        MENU_TEXT = get_font(50).render("MAIN MENU", True, "#000000")
         MENU_RECT = MENU_TEXT.get_rect(center=(400, 100))
 
-        PLAY_BUTTON = Button(image=pygame.image.load("assets/Play Rect.png"), pos=(400, 250), 
+        PLAY_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 250), 
                             text_input="PLAY", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
-        OPTIONS_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 400), 
-                            text_input="OPTIONS", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
-        QUIT_BUTTON = Button(image=pygame.image.load("assets/Quit Rect.png"), pos=(400, 550), 
+        SCOREBOARD_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 400), 
+                            text_input="SCOREBOARD", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        QUIT_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 550), 
                             text_input="QUIT", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
 
         SCREEN.blit(MENU_TEXT, MENU_RECT)
 
-        for button in [PLAY_BUTTON, OPTIONS_BUTTON, QUIT_BUTTON]:
+        for button in [PLAY_BUTTON, SCOREBOARD_BUTTON, QUIT_BUTTON]:
             button.changeColor(MENU_MOUSE_POS)
             button.update(SCREEN)
         
@@ -372,34 +428,35 @@ def main_menu():
                 sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if PLAY_BUTTON.checkForInput(MENU_MOUSE_POS):
-                    play()
-                if OPTIONS_BUTTON.checkForInput(MENU_MOUSE_POS):
-                    options()
+                    customize()
+                if SCOREBOARD_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    scoreboard()
                 if QUIT_BUTTON.checkForInput(MENU_MOUSE_POS):
                     pygame.quit()
                     sys.exit()
 
         pygame.display.update()
 
-def ingame_menu():
+def ingame_menu(background, car_colour):
+
     while True:
         SCREEN.blit(BGP, (-500, -50))
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
-        MENU_TEXT = get_font(50).render("Pause Menu", True, "#b68f40")
+        MENU_TEXT = get_font(50).render("Pause Menu", True, "#000000")
         MENU_RECT = MENU_TEXT.get_rect(center=(400, 100))
 
-        PLAY_BUTTON = Button(image=pygame.image.load("assets/Play Rect.png"), pos=(400, 250), 
+        RESUME_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 250), 
                             text_input="Resume", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
         CONTROLS_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 400), 
                             text_input="Controls", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
-        QUIT_BUTTON = Button(image=pygame.image.load("assets/Quit Rect.png"), pos=(400, 550), 
+        QUIT_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 550), 
                             text_input="Main Menu", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
 
         SCREEN.blit(MENU_TEXT, MENU_RECT)
 
-        for button in [PLAY_BUTTON, CONTROLS_BUTTON, QUIT_BUTTON]:
+        for button in [RESUME_BUTTON, CONTROLS_BUTTON, QUIT_BUTTON]:
             button.changeColor(MENU_MOUSE_POS)
             button.update(SCREEN)
         
@@ -408,18 +465,68 @@ def ingame_menu():
                 pygame.quit()
                 sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
-                if PLAY_BUTTON.checkForInput(MENU_MOUSE_POS):
-                    play()
+                if RESUME_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    play(background, car_colour)
+
                 if CONTROLS_BUTTON.checkForInput(MENU_MOUSE_POS):
-                    controls()
+                    controls(background, car_colour)
                 if QUIT_BUTTON.checkForInput(MENU_MOUSE_POS):
                     main_menu()
 
         pygame.display.update()
 
+def circuit_menu(car_colour):
+    while True:
+        SCREEN.blit(BGO, (-500, -50))
 
+        MENU_MOUSE_POS = pygame.mouse.get_pos()
 
-def controls():
+        MENU_TEXT = get_font(50).render("CHOOSE CIRCUIT", True, "#000000")
+        MENU_RECT = MENU_TEXT.get_rect(center=(400, 100))
+
+        SANDY_SEASHORE_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 250), 
+                            text_input="SANDY SEASHORE", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        FREAKY_FOREST_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 350), 
+                            text_input="FREAKY FOREST", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        WINTER_WONDERLAND_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 450), 
+                            text_input="WINTER WONDERLAND", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        MOUNTAIN_MANIA_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 550), 
+                            text_input=" MOUNTAIN MANIA", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        BACK_BUTTON = Button(image=pygame.image.load("assets/Options Rect.png"), pos=(400, 650), 
+                            text_input="BACK", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
+        SCREEN.blit(MENU_TEXT, MENU_RECT)
+
+        for button in [SANDY_SEASHORE_BUTTON, FREAKY_FOREST_BUTTON, WINTER_WONDERLAND_BUTTON, MOUNTAIN_MANIA_BUTTON, BACK_BUTTON]:
+            button.changeColor(MENU_MOUSE_POS)
+            button.update(SCREEN)
+        
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                if SANDY_SEASHORE_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    background = scale_image(pygame.image.load("imgs/sand.jpg"), 2.5)
+                    play(background, car_colour)
+                    
+                if FREAKY_FOREST_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    background = scale_image(pygame.image.load("imgs/forest.jpg"), 2.5)
+                    play(background, car_colour)
+                    
+                if WINTER_WONDERLAND_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    background = scale_image(pygame.image.load("imgs/winter.jpg"), 2.5)
+                    play(background, car_colour)
+                    
+                if MOUNTAIN_MANIA_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    background = scale_image(pygame.image.load("imgs/mountain.jpg"), 2.5)
+                    play(background, car_colour)
+                    
+                if BACK_BUTTON.checkForInput(MENU_MOUSE_POS):
+                    main_menu()
+
+        pygame.display.update()
+
+def controls(background, car_colour):
     while True:
         CONTROLS_MOUSE_POS = pygame.mouse.get_pos()
 
@@ -441,9 +548,8 @@ def controls():
                 sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if CONTROLS_BACK.checkForInput(CONTROLS_MOUSE_POS):
-                    ingame_menu()
+                    ingame_menu(background, car_colour)
 
         pygame.display.update()
-
 
 main_menu()
