@@ -1,0 +1,740 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: code-for-life\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 14:36+0000\n"
+"PO-Revision-Date: 2022-10-24 14:36\n"
+"Last-Translator: \n"
+"Language-Team: Catalan\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: code-for-life\n"
+"X-Crowdin-Project-ID: 163289\n"
+"X-Crowdin-Language: ca\n"
+"X-Crowdin-File: /game/locale/en_GB/LC_MESSAGES/djangojs.po\n"
+"X-Crowdin-File-ID: 23\n"
+
+#: static/game/js/animation.js:256
+msgid "You win!"
+msgstr "Has guanyat!"
+
+#: static/game/js/animation.js:260
+msgid "Route score: "
+msgstr "Puntuació de la ruta: "
+
+#: static/game/js/animation.js:265
+msgid "Algorithm score: "
+msgstr "Puntuació de l'algorisme: "
+
+#: static/game/js/animation.js:271
+msgid "Your total score: %(totalScore)s/%(maxScore)s"
+msgstr "Puntuació total: %(totalScore)s/%(maxScore)s"
+
+#: static/game/js/animation.js:284
+msgid "Looks like you've got a route sorted using Blockly.<br><br>Now go to the Python tab and see if you can do the same in Python! "
+msgstr "Sembla que has aconseguit construir una ruta amb Blockly.<br><br>Ara vés a la pestanya Python i mira si ets capaç de fer el mateix amb Python! "
+
+#: static/game/js/animation.js:286 static/game/js/drawing.js:1055
+msgid "Close"
+msgstr "Tanca"
+
+#: static/game/js/animation.js:290
+msgid "Next Level"
+msgstr "Següent nivell"
+
+#: static/game/js/animation.js:301
+msgid "Well done, you've completed the episode! <br> Are you ready for the next challenge? "
+msgstr "Ben fet, has acabat el capítol! <br> Estàs preparat per al proper repte? "
+
+#: static/game/js/animation.js:303
+msgid "Or try one of this episode's random levels!"
+msgstr "O prova un dels nivells a l'atzar d'aquest capítol!"
+
+#: static/game/js/animation.js:306
+msgid "Next episode"
+msgstr "Següent episodi"
+
+#: static/game/js/animation.js:308
+msgid "Random level"
+msgstr "Nivell a l'atzar"
+
+#: static/game/js/animation.js:310 static/game/js/animation.js:314
+#: static/game/js/animation.js:318
+msgid "Home"
+msgstr "Inici"
+
+#: static/game/js/animation.js:312
+msgid "That's all we've got for you right now. Carry on the fun by creating your own challenges."
+msgstr "Això és tot per ara. Segueix divertint-te creant \n"
+"els teus propis reptes."
+
+#: static/game/js/animation.js:313
+msgid "Create your own map!"
+msgstr "Crea el teu propi mapa!"
+
+#: static/game/js/animation.js:316
+msgid "Do you want to try another random level?"
+msgstr "Vols provar un altre nivell a l'atzar?"
+
+#: static/game/js/animation.js:317
+msgid "Have more fun!"
+msgstr "Segueix divertint-te!"
+
+#: static/game/js/animation.js:325 static/game/js/game.js:156
+#: static/game/js/game.js:166
+msgid "Oh dear!"
+msgstr "Oh!"
+
+#: static/game/js/animation.js:334
+msgid "Are you stuck? Do you need help?"
+msgstr "Estàs bloquejat? Necessites ajuda?"
+
+#: static/game/js/blocklyCompiler.js:30 static/game/js/blocklyCompiler.js:35
+msgid "Perhaps try looking at your 'define' blocks?"
+msgstr "Potser pots mirar els blocs 'defineix'?"
+
+#: static/game/js/blocklyCompiler.js:41
+msgid "Perhaps try checking the names of your 'define' blocks?"
+msgstr "Potser pots comprovar els noms dels blocs 'defineix'?"
+
+#: static/game/js/blocklyCompiler.js:56
+msgid "Perhaps try looking at your 'event' blocks?"
+msgstr "Potser pots mirar els blocs 'esdeveniment'?"
+
+#: static/game/js/blocklyCompiler.js:85 static/game/js/blocklyCompiler.js:127
+#: static/game/js/blocklyCompiler.js:481
+msgid "Perhaps try checking the names in your 'call' blocks?"
+msgstr "Potser pots comprovar els noms dels blocs 'crida'?"
+
+#: static/game/js/blocklyCompiler.js:97 static/game/js/blocklyCompiler.js:105
+#: static/game/js/blocklyCompiler.js:113 static/game/js/blocklyCompiler.js:119
+#: static/game/js/blocklyCompiler.js:138 static/game/js/blocklyCompiler.js:149
+#: static/game/js/blocklyCompiler.js:158 static/game/js/blocklyCompiler.js:390
+#: static/game/js/blocklyCompiler.js:398 static/game/js/blocklyCompiler.js:406
+#: static/game/js/blocklyCompiler.js:412 static/game/js/blocklyCompiler.js:420
+#: static/game/js/blocklyCompiler.js:431 static/game/js/blocklyCompiler.js:440
+msgid "Perhaps try looking at your 'repeat' blocks?"
+msgstr "Potser pots mirar els blocs 'repeteix'?"
+
+#: static/game/js/blocklyCompiler.js:193 static/game/js/blocklyCompiler.js:457
+msgid "Perhaps try looking at your 'if' blocks?"
+msgstr "Potser pots mirar els blocs 'si'?"
+
+#: static/game/js/blocklyControl.js:45
+msgid "Your program doesn't look quite right..."
+msgstr "El teu programa sembla que no està bé del tot..."
+
+#: static/game/js/blocklyControl.js:96
+msgid "Loading workspace"
+msgstr "Carregant espai de treball"
+
+#: static/game/js/blocklyControl.js:98
+msgid "Sorry, this workspace has blocks in it that aren't allowed in this level!"
+msgstr "Disculpa, aquest espai de treball té blocs que no estan permesos en aquest nivell!"
+
+#: static/game/js/blocklyCustomBlocks.js:19
+msgid "Start"
+msgstr "Comença"
+
+#: static/game/js/blocklyCustomBlocks.js:24
+msgid "The beginning of the program"
+msgstr "Començament del programa"
+
+#: static/game/js/blocklyCustomBlocks.js:38
+msgid "move forwards"
+msgstr "mou endavant"
+
+#: static/game/js/blocklyCustomBlocks.js:44
+msgid "Move the van forwards"
+msgstr "Mou endavant la furgoneta"
+
+#: static/game/js/blocklyCustomBlocks.js:53
+msgid "turn left"
+msgstr "gira a l'esquerra"
+
+#: static/game/js/blocklyCustomBlocks.js:62
+msgid "Turn the van left"
+msgstr "Fes girar la furgoneta a l'esquerra"
+
+#: static/game/js/blocklyCustomBlocks.js:71
+msgid "turn right"
+msgstr "gira a la dreta"
+
+#: static/game/js/blocklyCustomBlocks.js:80
+msgid "Turn the van right"
+msgstr "Fes girar la furgoneta a la dreta"
+
+#: static/game/js/blocklyCustomBlocks.js:89
+msgid "turn around"
+msgstr "fes la volta"
+
+#: static/game/js/blocklyCustomBlocks.js:99
+msgid "Turn the van around"
+msgstr "Fes la volta amb la furgoneta"
+
+#: static/game/js/blocklyCustomBlocks.js:108
+msgid "wait"
+msgstr "espera"
+
+#: static/game/js/blocklyCustomBlocks.js:117
+msgid "Keep the van stationary"
+msgstr "Deixa la furgoneta parada"
+
+#: static/game/js/blocklyCustomBlocks.js:126
+msgid "deliver"
+msgstr "entrega"
+
+#: static/game/js/blocklyCustomBlocks.js:135
+msgid "Deliver the goods from the van"
+msgstr "Entrega els productes de la furgoneta"
+
+#: static/game/js/blocklyCustomBlocks.js:144
+msgid "puff up"
+msgstr "infla"
+
+#: static/game/js/blocklyCustomBlocks.js:153
+msgid "Puff up the van to scare away the cows"
+msgstr "Infla la furgoneta per espantar les vaques"
+
+#: static/game/js/blocklyCustomBlocks.js:162
+msgid "sound horn"
+msgstr "fes sonar el clàxon"
+
+#: static/game/js/blocklyCustomBlocks.js:171
+msgid "Sound the horn to scare away the cows"
+msgstr "Fés sonar el clàxon per espantar les vaques"
+
+#: static/game/js/blocklyCustomBlocks.js:182
+msgid "road exists forward"
+msgstr "existeix un camí endavant"
+
+#: static/game/js/blocklyCustomBlocks.js:183
+msgid "road exists left"
+msgstr "existeix un camí a l'esquerra"
+
+#: static/game/js/blocklyCustomBlocks.js:184
+msgid "road exists right"
+msgstr "existeix un camí a la dreta"
+
+#: static/game/js/blocklyCustomBlocks.js:198
+msgid "traffic light red"
+msgstr "semàfor vermell"
+
+#: static/game/js/blocklyCustomBlocks.js:199
+msgid "traffic light green"
+msgstr "semàfor verd"
+
+#: static/game/js/blocklyCustomBlocks.js:215
+msgid "is dead end"
+msgstr "atzucac"
+
+#: static/game/js/blocklyCustomBlocks.js:227
+msgid "at destination"
+msgstr "a destí"
+
+#: static/game/js/blocklyCustomBlocks.js:244
+#: static/game/js/blocklyCustomBlocks.js:250
+msgid "Call"
+msgstr "Crida"
+
+#: static/game/js/blocklyCustomBlocks.js:261
+msgid "Define"
+msgstr "Defineix"
+
+#: static/game/js/blocklyCustomBlocks.js:265
+#: static/game/js/blocklyCustomBlocks.js:293
+msgid "Do"
+msgstr "Fer"
+
+#: static/game/js/blocklyCustomBlocks.js:266
+msgid "Declares the procedure"
+msgstr "Declara el procediment"
+
+#: static/game/js/blocklyCustomBlocks.js:280
+msgid "white"
+msgstr "blanc"
+
+#: static/game/js/blocklyCustomBlocks.js:280
+msgid "brown"
+msgstr "marró"
+
+#: static/game/js/blocklyCustomBlocks.js:285
+msgid "On "
+msgstr "Quan "
+
+#: static/game/js/blocklyCustomBlocks.js:294
+msgid "Declares the event handler"
+msgstr "Declara el gestor d'events"
+
+#: static/game/js/blocklyCustomBlocks.js:309
+msgid "repeat while"
+msgstr "repeteix mentre"
+
+#: static/game/js/blocklyCustomBlocks.js:312
+#: static/game/js/blocklyCustomBlocks.js:328
+#: static/game/js/blocklyMessages.js:11 static/game/js/blocklyMessages.js:15
+msgid "do"
+msgstr "fer"
+
+#: static/game/js/blocklyCustomBlocks.js:315
+msgid "While a value is true, do some statements"
+msgstr "Mentre un valor sigui cert, fes algunes instruccions"
+
+#: static/game/js/blocklyCustomBlocks.js:325
+msgid "repeat until"
+msgstr "repeteix fins"
+
+#: static/game/js/blocklyCustomBlocks.js:331
+msgid "Until a value is true, do some statements"
+msgstr "Fins que un valor sigui cert, fes algunes instruccions"
+
+#: static/game/js/blocklyMessages.js:4
+msgid "If a value is true, then do some statements."
+msgstr "Si un valor és cert, llavors fes algunes instruccions."
+
+#: static/game/js/blocklyMessages.js:5
+msgid "If a value is true, then do the first block of statements. Otherwise, do the second block of statements."
+msgstr "Si un valor és cert, llavors fes el primer bloc d'instruccions. Sinó, fes el segon bloc d'instruccions."
+
+#: static/game/js/blocklyMessages.js:6
+msgid "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements."
+msgstr "Si el primer valor és cert, llavors fes el primer bloc d'instruccions. Sinó, si el segon valor és cert, fes el segon bloc d'instruccions."
+
+#: static/game/js/blocklyMessages.js:7
+msgid "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements."
+msgstr "Si el pimer valor és cert, llavors fes el primer bloc d'instruccions. Sinó, si el segon valor és cert, fes el segon bloc d'instruccions. Si cap dels valors és cert, fes l'últim bloc d'instruccions."
+
+#: static/game/js/blocklyMessages.js:8
+msgid "if"
+msgstr "si"
+
+#: static/game/js/blocklyMessages.js:9
+msgid "else if"
+msgstr "sino si"
+
+#: static/game/js/blocklyMessages.js:10
+msgid "else"
+msgstr "si no"
+
+#: static/game/js/blocklyMessages.js:14
+msgid "repeat %(number_of_times)s times"
+msgstr "repeteix %(number_of_times)s vegades"
+
+#: static/game/js/blocklyMessages.js:16
+msgid "Do some statements several times."
+msgstr "Fes algunes instruccions diverses vegades."
+
+#: static/game/js/button.js:19
+msgid "Try again"
+msgstr "Torna-ho a provar"
+
+#: static/game/js/drawing.js:1101
+msgid "Error"
+msgstr "Error"
+
+#: static/game/js/drawing.js:1104
+msgid "Could not connect to server. Your internet might not be working properly."
+msgstr "No es pot conectar amb el servidor. La teva connexió pot no estar funcionant adequadament."
+
+#: static/game/js/game.js:83
+msgid "You are not logged in. Your progress won't be saved."
+msgstr "No has iniciat sessió. El teu progrés no es desarà."
+
+#: static/game/js/game.js:87
+msgid "Try solving this one..."
+msgstr "Intenta resoldre aquest..."
+
+#: static/game/js/game.js:91
+msgid "Night Level %(level_name)s"
+msgstr "Nivell nocturn %(level_name)s"
+
+#: static/game/js/game.js:93
+msgid "Level %(level_name)s"
+msgstr "Nivell %(level_name)s"
+
+#: static/game/js/game.js:107
+msgid "In Night Mode you can only see a very short distance. We've given you more blocks to help you find your way!"
+msgstr "En el Mode Nocturn només pots veure una distància molt curta. T'hem donat més blocs per ajudar-te a trobar el camí!"
+
+#: static/game/js/game.js:121 static/game/js/game.js:615
+#: static/game/js/level_editor.js:863
+msgid "Play"
+msgstr "Juga"
+
+#: static/game/js/game.js:620
+msgid "Pause"
+msgstr "Pausa"
+
+#: static/game/js/game.js:625
+msgid "Resume"
+msgstr "Continua"
+
+#: static/game/js/game.js:634
+msgid "Fast"
+msgstr "Ràpid"
+
+#: static/game/js/game.js:639
+msgid "Slow"
+msgstr "Lent"
+
+#: static/game/js/game.js:667
+msgid "Unmute"
+msgstr "Deixa de silenciar"
+
+#: static/game/js/game.js:672
+msgid "Mute"
+msgstr "Silencia"
+
+#: static/game/js/game.js:813
+msgid "Run the following commands on the van object %(var_name)s, e.g. %(example)s"
+msgstr "Executa les següents instruccions a l'objecte furgoneta %(var_name)s, ex: %(example)s"
+
+#: static/game/js/game.js:822
+msgid "Movement"
+msgstr "Moviment"
+
+#: static/game/js/game.js:832
+msgid "Position"
+msgstr "Posició"
+
+#: static/game/js/game.js:841
+msgid "where %(arg_name)s is '%(red_color)s' or '%(green_color)s'"
+msgstr "on %(arg_name)s és %(red_color)s o %(green_color)s"
+
+#: static/game/js/game.js:856
+msgid "where %(arg_name)s is '%(forward)s', '%(left)s', or '%(right)s'"
+msgstr "on %(arg_name)s és '%(forward)s', '%(left)s', o '%(right)s'"
+
+#: static/game/js/game.js:867
+msgid "Python Commands"
+msgstr "Instruccions Python"
+
+#: static/game/js/level_editor.js:50 static/game/js/level_editor.js:2452
+msgid "Add road"
+msgstr "Afegir carretera"
+
+#: static/game/js/level_editor.js:51 static/game/js/level_editor.js:820
+msgid "Delete road"
+msgstr "Esborrar carretera"
+
+#: static/game/js/level_editor.js:52 static/game/js/level_editor.js:811
+#: static/game/js/level_editor.js:2470
+msgid "Mark end"
+msgstr "Marca el final"
+
+#: static/game/js/level_editor.js:53 static/game/js/level_editor.js:809
+#: static/game/js/level_editor.js:2468
+msgid "Mark start"
+msgstr "Marca el començament"
+
+#: static/game/js/level_editor.js:341
+msgid "White"
+msgstr "Blanc"
+
+#: static/game/js/level_editor.js:343
+msgid "Brown"
+msgstr "Marró"
+
+#: static/game/js/level_editor.js:694 static/game/js/level_editor.js:2456
+#: static/game/js/level_editor.js:2474
+msgid "Oh no!"
+msgstr "Oh no!"
+
+#: static/game/js/level_editor.js:694
+msgid "You used some invalid characters."
+msgstr "Has fet servir alguns caràcters invàlids."
+
+#: static/game/js/level_editor.js:695
+msgid "Try saving your level again using only letters and numbers."
+msgstr "Intenta desar el teu nivell una altra vegada fent servir només lletres i números."
+
+#: static/game/js/level_editor.js:727
+msgid "Overwriting"
+msgstr "Sobreescrivint"
+
+#: static/game/js/level_editor.js:727
+msgid "Warning"
+msgstr "Advertència"
+
+#: static/game/js/level_editor.js:728
+msgid "Level %(level_name)s already exists. Are you sure you want to overwrite it?"
+msgstr "El nivell %(level_name)s ja existeix. Estàs segur de voler-lo sobreescriure?"
+
+#: static/game/js/level_editor.js:795
+msgid "To get started, draw a road."
+msgstr "Per començar, dibuixa una carretera."
+
+#: static/game/js/level_editor.js:796
+msgid "Click on the square you want the road to start from. Then, without letting go of the mouse button, drag to the square you’d like the road to end on. Do this as many times as you like to add new sections of road."
+msgstr "Fes clic a la casella on vols que comenci la carretera. Llavors, sense deixar anar el botó del ratolí, arrossega el quadrat fins allà on vulguis que acabi la carretera. Fes-ho tantes vegades com seccions vulguis afegir a la carretera."
+
+#: static/game/js/level_editor.js:800
+msgid "In %(map_icon)s%(map_label)s menu, click %(mark_start_icon)s%(mark_start_label)s and select a square for your road to start from. The starting point can only be placed on dead ends. You need a road first before adding a starting point. Make sure you use %(mark_end_icon)s%(mark_end_label)s to select a final destination. Setting a fuel level means the route will need to be short enough for the fuel not to run out."
+msgstr "Al menú %(map_icon)s%(map_label)s, clica a %(mark_start_icon)s%(mark_start_label)s i selecciona una casella des d'on començar la carretera. El punt inicial només es pot posar en un extrem. Necessites una carretera abans d'afegir un punt inicial. Assegura't de fer servir %(mark_end_icon)s%(mark_end_label)s per triar la destinació final. Definir un nivell de combustible requreix que la carretera sigui prou curta com per que no et quedis sense combustible."
+
+#: static/game/js/level_editor.js:807 static/game/js/level_editor.js:2450
+#: static/game/js/level_editor.js:2466
+msgid "Map"
+msgstr "Mapa"
+
+#: static/game/js/level_editor.js:816
+msgid "To remove road, click the %(delete_road_icon)s%(delete_road_label)s button and select a section to get rid of."
+msgstr "Per a eliminar carretera, clica el botó %(delete_road_icon)s%(delete_road_label)s i selecciona una secció per a ser eliminada."
+
+#: static/game/js/level_editor.js:825
+msgid "Click %(random_icon)s%(random_label)s if you want the computer to create a random route for you."
+msgstr "Clica %(random_icon)s%(random_label)s si vols que l'ordinador et crei una ruta aleatoria."
+
+#: static/game/js/level_editor.js:827
+msgid "Random"
+msgstr "Aleatori"
+
+#: static/game/js/level_editor.js:832
+msgid "Select %(scenery_icon)s%(scenery_label)s and choose trees, bushes and more to place around your road. These will show in the top left corner - drag them into place. Delete items by dragging them into the bin in the bottom right. To rotate a traffic light, simply double click on it. Remember, using the traffic lights is not covered until level 44."
+msgstr "Selecciona %(scenery_icon)s%(scenery_label)s i escull arbres, arbusts i més per a colocar-los al voltant de la carretera. Els elements apareixeran a la cantonada superior esquerra - arrosegal's on vulguis. Esborra elements arrosegant-los al cubell a la part inferior dreta. Per a rotar un semàfor, fes-hi doble click. Recorda, l'ús de semàfors no es cobreix fins al nivell 44."
+
+#: static/game/js/level_editor.js:838
+msgid "Scenery"
+msgstr "Paisatge"
+
+#: static/game/js/level_editor.js:843
+msgid "Choose a character to play with from the %(character_icon)s%(character_label)s menu."
+msgstr "Escull un personatge per jugar des del menú %(character_icon)s%(character_label)s."
+
+#: static/game/js/level_editor.js:845
+msgid "Character"
+msgstr "Personatge"
+
+#: static/game/js/level_editor.js:850
+msgid "Select which blocks of code you want to be used to create a route for your character from the %(blocks_icon)s%(blocks_label)s menu."
+msgstr "Selecciona quins blocs de codi vols emprar per crear la teva ruta per al teu personatge des del menú %(blocks_icon)s%(blocks_label)s."
+
+#: static/game/js/level_editor.js:854
+msgid "Blocks"
+msgstr "Blocs"
+
+#: static/game/js/level_editor.js:859
+msgid "When you're ready click %(play_icon)s%(play_label)s, or %(save_icon)s%(save_label)s your road or %(share_icon)s%(share_label)s it with a friend. Don't forget to choose a good name for it!"
+msgstr "Quan estiguis a punt, clica %(play_icon)s%(play_label)s, o %(save_icon)s%(save_label)s la teva carretera o %(share_icon)s%(share_label)s amb un amic. No t'oblidis de posar-li un bon nom!"
+
+#: static/game/js/level_editor.js:865
+msgid "Save"
+msgstr "Desa"
+
+#: static/game/js/level_editor.js:867
+msgid "Share"
+msgstr "Compartir"
+
+#: static/game/js/level_editor.js:872
+msgid "%(quit_icon)s%(quit_label)s will take you back to the Rapid Router homepage."
+msgstr "%(quit_icon)s%(quit_label)s et portarà altre cop a la pàgina de Rapid Router."
+
+#: static/game/js/level_editor.js:875
+msgid "Quit"
+msgstr "Surt"
+
+#: static/game/js/level_editor.js:957 static/game/js/level_editor.js:995
+msgid "Group %(cow_group)s"
+msgstr "Agrupa %(cow_group)s"
+
+#: static/game/js/level_editor.js:2446
+msgid "In %(map_icon)s%(map_label)s menu, click on %(add_road_icon)s%(add_road_label)s. Draw a road by clicking on a square then dragging to another square."
+msgstr "Al menú %(map_icon)s%(map_label)s, fes clic a %(add_road_icon)s%(add_road_label)s. Dibuixa una carretera fent clic a una casella i arrossegant fins a una altra."
+
+#: static/game/js/level_editor.js:2456
+msgid "You forgot to create a road."
+msgstr "T'has oblidat de crear una carretera."
+
+#: static/game/js/level_editor.js:2462
+msgid "In %(map_icon)s%(map_label)s menu, click on %(mark_start_icon)s%(mark_start_label)s or %(mark_end_icon)s%(mark_end_label)s then select the square where you want the road to start or end."
+msgstr ""
+
+#: static/game/js/level_editor.js:2474
+msgid "You forgot to mark the start and end points."
+msgstr "T'has oblidat de marcar els punts d'inici i final."
+
+#: static/game/js/level_editor.js:2480 static/game/js/level_editor.js:2498
+msgid "Something is wrong..."
+msgstr "Alguna cosa està malament..."
+
+#: static/game/js/level_editor.js:2481
+msgid "There is no way to get from the start to the destination."
+msgstr "No hi ha manera d'arribar des de l'inici a la destinació."
+
+#: static/game/js/level_editor.js:2482
+msgid "Edit your level to allow the driver to get to the end."
+msgstr "Edita el teu nivell per permetre al conductor arribar al final."
+
+#: static/game/js/level_editor.js:2490
+msgid "Go to %(code_icon)s%(code_label)s and select some to use. Remember to include the move and turn commands!"
+msgstr "Ves a %(code_icon)s%(code_label)s i selecciona'n uns quants. Recorda incloure les instruccions de moure i girar!"
+
+#: static/game/js/level_editor.js:2494
+msgid "Code"
+msgstr "Codi"
+
+#: static/game/js/level_editor.js:2499
+msgid "You haven't selected any blocks to use in your level"
+msgstr "No has seleccionat cap bloc per fer servir en el teu nivell"
+
+#: static/game/js/level_editor.js:2514 static/game/js/level_editor.js:2517
+#: static/game/js/level_editor.js:2525
+msgid "Sharing"
+msgstr "Comparteix"
+
+#: static/game/js/level_editor.js:2514
+msgid "Please save your level before continuing!"
+msgstr "Desa el teu nivell abans de continuar!"
+
+#: static/game/js/level_editor.js:2517
+msgid "Please save your latest changes!"
+msgstr "Si us plau, desa els teus últims canvis!"
+
+#: static/game/js/level_editor.js:2526
+msgid "You do not own this level. If you would like to share it you will first have to save your own copy!"
+msgstr "Aquest nivell no és teu. Si el vols compartir primer has de desar-ne una còpia!"
+
+#: static/game/js/level_editor.js:2539
+msgid "Unfortunately you need to be logged in to save levels."
+msgstr "Necessites estar connectat per poder desar nivells."
+
+#: static/game/js/level_editor.js:2542
+msgid "Unfortunately you need to be logged in to load levels."
+msgstr "Necessites estar connectat per poder carregar nivells."
+
+#: static/game/js/level_editor.js:2545
+msgid "Unfortunately you need to be logged in to share levels."
+msgstr "Necessites estar connectat per poder compartir nivells."
+
+#: static/game/js/level_editor.js:2549
+msgid "You can log in as a %(student_login_url)s, %(teacher_login_url)s or %(independent_login_url)s."
+msgstr "Pots entrar com a %(student_login_url)s, %(teacher_login_url)s o %(independent_login_url)s."
+
+#: static/game/js/level_editor.js:2551
+msgctxt "login_url"
+msgid "student"
+msgstr "alumne"
+
+#: static/game/js/level_editor.js:2552
+msgctxt "login_url"
+msgid "teacher"
+msgstr "professor"
+
+#: static/game/js/level_editor.js:2554
+msgctxt "login_url"
+msgid "independent student"
+msgstr "alumne independent"
+
+#: static/game/js/level_editor.js:2559
+msgid "Not logged in"
+msgstr "No has iniciat sessió"
+
+#: static/game/js/level_editor.js:2567
+msgid "Sharing as an independent student"
+msgstr "Compartir com un estudiant independent"
+
+#: static/game/js/level_editor.js:2568
+msgid "Sorry but as an independent student you'll need to join a school or club to share your levels with others."
+msgstr "Com a estudiant independent, per poder compartir els teus nivells amb altres hauries d'unir-te a una escola o a un club."
+
+#: static/game/js/level_editor.js:2804
+msgid "Click %(help_icon)s%(help_label)s for clues on getting started."
+msgstr "Fes clic a %(help_icon)s%(help_label)s per obtenir suggeriments per començar."
+
+#: static/game/js/level_editor.js:2806
+msgid "Help"
+msgstr "Ajuda"
+
+#: static/game/js/level_editor.js:2811
+msgid "Welcome to the Level editor!"
+msgstr "Benvinguts a l'editor de nivells!"
+
+#: static/game/js/level_editor.js:2823
+msgid "Welcome back!"
+msgstr "Benvingut de nou!"
+
+#: static/game/js/level_editor.js:2824
+msgid "Would you like to edit or play with your design?"
+msgstr "Vols editar o jugar amb el teu disseny?"
+
+#: static/game/js/model.js:158
+msgid "You ran into a cow! Keep in mind that cows can appear anywhere on the map."
+msgstr "Has xocat contra una vaca! Tingues en compte que les vaques poden aparèixer en qualsvol lloc del mapa."
+
+#: static/game/js/model.js:166
+msgid "Your first move was a crash. What went wrong?"
+msgstr "El teu primer moviment ha estat accidentat. Què ha fallat?"
+
+#: static/game/js/model.js:169
+msgid "Your first move was right. What went wrong after that?"
+msgid_plural "Your first %(correct_steps)s moves worked. What went wrong after that?"
+msgstr[0] "El teu primer moviment ha funcionat. Què ha fallat després?"
+msgstr[1] "Els primers %(correct_steps)s moviments han funcionat. Què ha fallat després?"
+
+#: static/game/js/model.js:193
+msgid "You ran out of fuel! Try to find a shorter route to the destination."
+msgstr "T'has quedat sense benzina! Intenta trobar una ruta més curta al destí."
+
+#: static/game/js/model.js:231
+msgid "Uh oh, you just sent the van through a red light! Stick to the Highway Code - the van must wait for green."
+msgstr "Oh oh, acabes de fer que la furgoneta se salti un semàfor en vermell! Segueix les normes de circulació: la furgoneta ha d'esperar el verd."
+
+#: static/game/js/model.js:395
+msgid "You have already delivered to that destination! You must only deliver once to each destination."
+msgstr "Ja has lliurat a aquesta destinació! Has fer un sol lliurament per destinació."
+
+#: static/game/js/model.js:490
+msgid "The van ran out of instructions before it reached a destination. Make sure there are enough instructions to complete the delivery."
+msgstr "La furgoneta s'ha quedat sense instruccions abans d'arribar a lloc. Comprova que tens prou instruccions per completar el repartiment."
+
+#: static/game/js/model.js:507
+msgid "The van visited the destination, but didn't stop there!"
+msgstr "La furgoneta ha visitat la destinació, pero no s'hi ha aturat!"
+
+#: static/game/js/model.js:518
+msgid "There are destinations that have not been delivered to. Ensure you visit all destinations and use the deliver command at each one."
+msgstr "Hi ha destinacions a les que no s'ha fet el lliurament. Assegura't que visites totes les destinacions i fes servir la comanda lliurar a cadascuna."
+
+#: static/game/js/model.js:533
+msgid "Make sure your blocks are connected to the Start block."
+msgstr "Assegura't que els teus blocs estan connectats al bloc inicial."
+
+#: static/game/js/pathFinder.js:72
+msgid "Try finding a shorter route to the destination."
+msgstr "Prova de trobar una ruta més curta al destí."
+
+#: static/game/js/pathFinder.js:74
+msgid "Try creating a simpler program."
+msgstr "Prova de fer un programa més senzill."
+
+#: static/game/js/pathFinder.js:76
+msgid "That solution isn't quite right. Read the level instructions or click Help."
+msgstr "Aquesta solució no està del tot bé. Llegeix les instruccions del nivell o vés a Ajuda."
+
+#: static/game/js/pathFinder.js:78
+msgid "Congratulations! You've aced it."
+msgstr "L'has clavada."
+
+#: static/game/js/program.js:61
+msgid "It looks as though your program's been running a while. Check your repeat loops are okay."
+msgstr "Sembla que el teu programa porta un estona executant-se. Revisa que els teus bucles de repetició siguin correctes."
+
+#: static/game/js/sharing.js:10 static/game/js/sharing.js:11
+msgid "Yes"
+msgstr "Si"
+
+#: static/game/js/sharing.js:12
+msgid "No"
+msgstr "No"
+
+#: static/game/js/sharing.js:141
+msgid "Unshare with all"
+msgstr "Deixa de compartir amb tothom"
+
+#: static/game/js/sharing.js:147
+msgid "Share with all"
+msgstr "Comparteix amb tothom"
+

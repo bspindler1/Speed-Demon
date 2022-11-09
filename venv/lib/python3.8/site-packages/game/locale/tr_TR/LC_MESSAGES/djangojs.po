@@ -1,0 +1,740 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: code-for-life\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 14:36+0000\n"
+"PO-Revision-Date: 2022-10-24 14:36\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: code-for-life\n"
+"X-Crowdin-Project-ID: 163289\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /game/locale/en_GB/LC_MESSAGES/djangojs.po\n"
+"X-Crowdin-File-ID: 23\n"
+
+#: static/game/js/animation.js:256
+msgid "You win!"
+msgstr "Kazandın!"
+
+#: static/game/js/animation.js:260
+msgid "Route score: "
+msgstr "Rota skoru: "
+
+#: static/game/js/animation.js:265
+msgid "Algorithm score: "
+msgstr "Algoritma skoru: "
+
+#: static/game/js/animation.js:271
+msgid "Your total score: %(totalScore)s/%(maxScore)s"
+msgstr "Toplam skorunuz: %(totalScore)s/%(maxScore)s"
+
+#: static/game/js/animation.js:284
+msgid "Looks like you've got a route sorted using Blockly.<br><br>Now go to the Python tab and see if you can do the same in Python! "
+msgstr "Blockly kullanılarak sıralanmış bir rotan varmış gibi görünüyor.<br><br>Şimdi Pyhton sekmesine giderek aynısını Pyhton'da yapabilecek misin diye bak! "
+
+#: static/game/js/animation.js:286 static/game/js/drawing.js:1055
+msgid "Close"
+msgstr "Kapat"
+
+#: static/game/js/animation.js:290
+msgid "Next Level"
+msgstr "Sonraki Seviye"
+
+#: static/game/js/animation.js:301
+msgid "Well done, you've completed the episode! <br> Are you ready for the next challenge? "
+msgstr "Tebrikler, bu bölümü tamamladın! <br>\n"
+"Sonraki meydan okumaya hazır mısın? "
+
+#: static/game/js/animation.js:303
+msgid "Or try one of this episode's random levels!"
+msgstr "Ya da bu bölümlerden birinin rastgele seviyelerini deneyin!"
+
+#: static/game/js/animation.js:306
+msgid "Next episode"
+msgstr "Sonraki bölüm"
+
+#: static/game/js/animation.js:308
+msgid "Random level"
+msgstr "Rastgele seviye"
+
+#: static/game/js/animation.js:310 static/game/js/animation.js:314
+#: static/game/js/animation.js:318
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: static/game/js/animation.js:312
+msgid "That's all we've got for you right now. Carry on the fun by creating your own challenges."
+msgstr "Şu an sizin için elimizdekiler bu kadar. Kendi meydan okumalarını oluşturarak eğlenceyi devam ettir."
+
+#: static/game/js/animation.js:313
+msgid "Create your own map!"
+msgstr "Kendi haritanı oluştur!"
+
+#: static/game/js/animation.js:316
+msgid "Do you want to try another random level?"
+msgstr "Başka bir rastgele seviye denemek ister misin?"
+
+#: static/game/js/animation.js:317
+msgid "Have more fun!"
+msgstr "Daha fazla eğlenin!"
+
+#: static/game/js/animation.js:325 static/game/js/game.js:156
+#: static/game/js/game.js:166
+msgid "Oh dear!"
+msgstr "Ah canım!"
+
+#: static/game/js/animation.js:334
+msgid "Are you stuck? Do you need help?"
+msgstr "Sıkıştın mı? Yardıma ihtiyacın var mı?"
+
+#: static/game/js/blocklyCompiler.js:30 static/game/js/blocklyCompiler.js:35
+msgid "Perhaps try looking at your 'define' blocks?"
+msgstr "Belki de 'tanımlama' bloklarına göz atmayı denemelisindir?"
+
+#: static/game/js/blocklyCompiler.js:41
+msgid "Perhaps try checking the names of your 'define' blocks?"
+msgstr "Belki de 'tanımlama' bloklarının adlarını kontrol etmeyi denemelisindir?"
+
+#: static/game/js/blocklyCompiler.js:56
+msgid "Perhaps try looking at your 'event' blocks?"
+msgstr "Belki de 'olay' bloklarına göz atmayı denemelisindir?"
+
+#: static/game/js/blocklyCompiler.js:85 static/game/js/blocklyCompiler.js:127
+#: static/game/js/blocklyCompiler.js:481
+msgid "Perhaps try checking the names in your 'call' blocks?"
+msgstr "Belki de 'arama' bloklarındaki isimleri kontrol etmeyi denemelisindir?"
+
+#: static/game/js/blocklyCompiler.js:97 static/game/js/blocklyCompiler.js:105
+#: static/game/js/blocklyCompiler.js:113 static/game/js/blocklyCompiler.js:119
+#: static/game/js/blocklyCompiler.js:138 static/game/js/blocklyCompiler.js:149
+#: static/game/js/blocklyCompiler.js:158 static/game/js/blocklyCompiler.js:390
+#: static/game/js/blocklyCompiler.js:398 static/game/js/blocklyCompiler.js:406
+#: static/game/js/blocklyCompiler.js:412 static/game/js/blocklyCompiler.js:420
+#: static/game/js/blocklyCompiler.js:431 static/game/js/blocklyCompiler.js:440
+msgid "Perhaps try looking at your 'repeat' blocks?"
+msgstr "Belki de 'tekrar' bloklarına göz atmayı denemelisindir?"
+
+#: static/game/js/blocklyCompiler.js:193 static/game/js/blocklyCompiler.js:457
+msgid "Perhaps try looking at your 'if' blocks?"
+msgstr "Belki de 'eğer' bloklarına bakmayı denemelisindir?"
+
+#: static/game/js/blocklyControl.js:45
+msgid "Your program doesn't look quite right..."
+msgstr "Uygulamanız tam olarak doğru görünmüyor..."
+
+#: static/game/js/blocklyControl.js:96
+msgid "Loading workspace"
+msgstr "Çalışma alanı yükleniyor"
+
+#: static/game/js/blocklyControl.js:98
+msgid "Sorry, this workspace has blocks in it that aren't allowed in this level!"
+msgstr "Üzgünüm, bu çalışma alanı içerisinde bu seviyede izinli olmayan bloklar bulunuyor!"
+
+#: static/game/js/blocklyCustomBlocks.js:19
+msgid "Start"
+msgstr "Başlat"
+
+#: static/game/js/blocklyCustomBlocks.js:24
+msgid "The beginning of the program"
+msgstr "Uygulamanın başlangıcı"
+
+#: static/game/js/blocklyCustomBlocks.js:38
+msgid "move forwards"
+msgstr "ilerlet"
+
+#: static/game/js/blocklyCustomBlocks.js:44
+msgid "Move the van forwards"
+msgstr "Kamyoneti ilerlet"
+
+#: static/game/js/blocklyCustomBlocks.js:53
+msgid "turn left"
+msgstr "sola dön"
+
+#: static/game/js/blocklyCustomBlocks.js:62
+msgid "Turn the van left"
+msgstr "Kamyoneti sola döndür"
+
+#: static/game/js/blocklyCustomBlocks.js:71
+msgid "turn right"
+msgstr "sağa dön"
+
+#: static/game/js/blocklyCustomBlocks.js:80
+msgid "Turn the van right"
+msgstr "Kamyoneti sağa döndür"
+
+#: static/game/js/blocklyCustomBlocks.js:89
+msgid "turn around"
+msgstr "etrafından dön"
+
+#: static/game/js/blocklyCustomBlocks.js:99
+msgid "Turn the van around"
+msgstr "Kamyoneti etrafından döndür"
+
+#: static/game/js/blocklyCustomBlocks.js:108
+msgid "wait"
+msgstr "bekle"
+
+#: static/game/js/blocklyCustomBlocks.js:117
+msgid "Keep the van stationary"
+msgstr "Kamyoneti hareketsiz tut"
+
+#: static/game/js/blocklyCustomBlocks.js:126
+msgid "deliver"
+msgstr "teslim et"
+
+#: static/game/js/blocklyCustomBlocks.js:135
+msgid "Deliver the goods from the van"
+msgstr "Kamyonetteki ürünleri teslim et"
+
+#: static/game/js/blocklyCustomBlocks.js:144
+msgid "puff up"
+msgstr "havalandır"
+
+#: static/game/js/blocklyCustomBlocks.js:153
+msgid "Puff up the van to scare away the cows"
+msgstr "İnekleri korkutup kaçırmak için kamyoneti havalandır"
+
+#: static/game/js/blocklyCustomBlocks.js:162
+msgid "sound horn"
+msgstr "korna çal"
+
+#: static/game/js/blocklyCustomBlocks.js:171
+msgid "Sound the horn to scare away the cows"
+msgstr "İnekleri korkutup kaçırmak için korna çal"
+
+#: static/game/js/blocklyCustomBlocks.js:182
+msgid "road exists forward"
+msgstr "ileri yol mevcut"
+
+#: static/game/js/blocklyCustomBlocks.js:183
+msgid "road exists left"
+msgstr "sola yol mevcut"
+
+#: static/game/js/blocklyCustomBlocks.js:184
+msgid "road exists right"
+msgstr "sağa yol mevcut"
+
+#: static/game/js/blocklyCustomBlocks.js:198
+msgid "traffic light red"
+msgstr "trafik ışığı kırmızı"
+
+#: static/game/js/blocklyCustomBlocks.js:199
+msgid "traffic light green"
+msgstr "trafik ışığı yeşil"
+
+#: static/game/js/blocklyCustomBlocks.js:215
+msgid "is dead end"
+msgstr "çıkmaz sokak"
+
+#: static/game/js/blocklyCustomBlocks.js:227
+msgid "at destination"
+msgstr "Varış yerinde"
+
+#: static/game/js/blocklyCustomBlocks.js:244
+#: static/game/js/blocklyCustomBlocks.js:250
+msgid "Call"
+msgstr "Çağır"
+
+#: static/game/js/blocklyCustomBlocks.js:261
+msgid "Define"
+msgstr "Tanımla"
+
+#: static/game/js/blocklyCustomBlocks.js:265
+#: static/game/js/blocklyCustomBlocks.js:293
+msgid "Do"
+msgstr "Yap"
+
+#: static/game/js/blocklyCustomBlocks.js:266
+msgid "Declares the procedure"
+msgstr "Prosedürün tanımlama"
+
+#: static/game/js/blocklyCustomBlocks.js:280
+msgid "white"
+msgstr "beyaz"
+
+#: static/game/js/blocklyCustomBlocks.js:280
+msgid "brown"
+msgstr "kahverengi"
+
+#: static/game/js/blocklyCustomBlocks.js:285
+msgid "On "
+msgstr "Açık "
+
+#: static/game/js/blocklyCustomBlocks.js:294
+msgid "Declares the event handler"
+msgstr "Işlem yorumlayıcısının tanımlama"
+
+#: static/game/js/blocklyCustomBlocks.js:309
+msgid "repeat while"
+msgstr "olduğu sürece tekrarla"
+
+#: static/game/js/blocklyCustomBlocks.js:312
+#: static/game/js/blocklyCustomBlocks.js:328
+#: static/game/js/blocklyMessages.js:11 static/game/js/blocklyMessages.js:15
+msgid "do"
+msgstr "yap"
+
+#: static/game/js/blocklyCustomBlocks.js:315
+msgid "While a value is true, do some statements"
+msgstr "Bir değer doğru olduğu sürece, bazı ifadeleri yap"
+
+#: static/game/js/blocklyCustomBlocks.js:325
+msgid "repeat until"
+msgstr "olana kadar tekrarla"
+
+#: static/game/js/blocklyCustomBlocks.js:331
+msgid "Until a value is true, do some statements"
+msgstr "Bir değer doğru olana kadar, bazı ifadeleri yap"
+
+#: static/game/js/blocklyMessages.js:4
+msgid "If a value is true, then do some statements."
+msgstr "Bir değer doğru ise, bazı ifadeleri yap."
+
+#: static/game/js/blocklyMessages.js:5
+msgid "If a value is true, then do the first block of statements. Otherwise, do the second block of statements."
+msgstr "Eğer bir değer doğru ise, birinci blok ifadelerini yap. Değilse, ikinci blok ifadelerini yap."
+
+#: static/game/js/blocklyMessages.js:6
+msgid "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements."
+msgstr "Eğer birinci değer doğru ise, birinci blok ifadelerini yap. Değilse, eğer ikinci değer doğru ise, ikinci blok ifadelerini yap."
+
+#: static/game/js/blocklyMessages.js:7
+msgid "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements."
+msgstr "Eğer birinci değer doğru ise, birinci blok ifadelerini yap. Değilse, eğer ikinci değer doğru ise, ikinci blok ifadelerini yap. Eğer değerlerden hiçbiri doğru değilse, sondaki blok ifadelerini yap."
+
+#: static/game/js/blocklyMessages.js:8
+msgid "if"
+msgstr "eğer"
+
+#: static/game/js/blocklyMessages.js:9
+msgid "else if"
+msgstr "ya da eğer"
+
+#: static/game/js/blocklyMessages.js:10
+msgid "else"
+msgstr "yoksa"
+
+#: static/game/js/blocklyMessages.js:14
+msgid "repeat %(number_of_times)s times"
+msgstr "%(number_of_times)s defa tekrarla"
+
+#: static/game/js/blocklyMessages.js:16
+msgid "Do some statements several times."
+msgstr "Bazı ifadeleri bir kaç kez çalıştırın."
+
+#: static/game/js/button.js:19
+msgid "Try again"
+msgstr "Tekrar dene"
+
+#: static/game/js/drawing.js:1101
+msgid "Error"
+msgstr "Hata"
+
+#: static/game/js/drawing.js:1104
+msgid "Could not connect to server. Your internet might not be working properly."
+msgstr "Sunucuya bağlanamıyor. İnternet bağlantınız düzgün çalışmıyor olabilir."
+
+#: static/game/js/game.js:83
+msgid "You are not logged in. Your progress won't be saved."
+msgstr "Giriş yapmadınız. İlerlemeniz kaydedilmeyecek."
+
+#: static/game/js/game.js:87
+msgid "Try solving this one..."
+msgstr "Bunu çözmeyi dene..."
+
+#: static/game/js/game.js:91
+msgid "Night Level %(level_name)s"
+msgstr "Gece Seviyesi %(level_name)s"
+
+#: static/game/js/game.js:93
+msgid "Level %(level_name)s"
+msgstr "Seviye %(level_name)s"
+
+#: static/game/js/game.js:107
+msgid "In Night Mode you can only see a very short distance. We've given you more blocks to help you find your way!"
+msgstr "Gece modunda sadece çok kısa mesafeleri görebilirsiniz. Size, yolunuzu bulmanızda yardımcı olması için daha çok blok veriyoruz!"
+
+#: static/game/js/game.js:121 static/game/js/game.js:615
+#: static/game/js/level_editor.js:863
+msgid "Play"
+msgstr "Oynat"
+
+#: static/game/js/game.js:620
+msgid "Pause"
+msgstr "Duraklat"
+
+#: static/game/js/game.js:625
+msgid "Resume"
+msgstr "Devam Et"
+
+#: static/game/js/game.js:634
+msgid "Fast"
+msgstr "Hızlı"
+
+#: static/game/js/game.js:639
+msgid "Slow"
+msgstr "Yavaş"
+
+#: static/game/js/game.js:667
+msgid "Unmute"
+msgstr "Sesi Aç"
+
+#: static/game/js/game.js:672
+msgid "Mute"
+msgstr "Sesi Kapat"
+
+#: static/game/js/game.js:813
+msgid "Run the following commands on the van object %(var_name)s, e.g. %(example)s"
+msgstr "Aşağıdaki komutları %(var_name)s kamyonet nesnesi üzerinde kullanın. Örn: %(example)s"
+
+#: static/game/js/game.js:822
+msgid "Movement"
+msgstr "Hareket"
+
+#: static/game/js/game.js:832
+msgid "Position"
+msgstr "Pozisyon"
+
+#: static/game/js/game.js:841
+msgid "where %(arg_name)s is '%(red_color)s' or '%(green_color)s'"
+msgstr "%(arg_name)s nerede '%(red_color)s' yada '%(green_color)s' olduğu"
+
+#: static/game/js/game.js:856
+msgid "where %(arg_name)s is '%(forward)s', '%(left)s', or '%(right)s'"
+msgstr "%(arg_name)s'nın nerede '%(forward)s' '%(left)s' yada '%(right)s' olduğu"
+
+#: static/game/js/game.js:867
+msgid "Python Commands"
+msgstr "Python Komutları"
+
+#: static/game/js/level_editor.js:50 static/game/js/level_editor.js:2452
+msgid "Add road"
+msgstr "Yol Ekle"
+
+#: static/game/js/level_editor.js:51 static/game/js/level_editor.js:820
+msgid "Delete road"
+msgstr "Yolu Sil"
+
+#: static/game/js/level_editor.js:52 static/game/js/level_editor.js:811
+#: static/game/js/level_editor.js:2470
+msgid "Mark end"
+msgstr "Bitişi işaretle"
+
+#: static/game/js/level_editor.js:53 static/game/js/level_editor.js:809
+#: static/game/js/level_editor.js:2468
+msgid "Mark start"
+msgstr "Başlangıcı işaretle"
+
+#: static/game/js/level_editor.js:341
+msgid "White"
+msgstr "Beyaz"
+
+#: static/game/js/level_editor.js:343
+msgid "Brown"
+msgstr "Kahverengi"
+
+#: static/game/js/level_editor.js:694 static/game/js/level_editor.js:2456
+#: static/game/js/level_editor.js:2474
+msgid "Oh no!"
+msgstr "Ah hayır!"
+
+#: static/game/js/level_editor.js:694
+msgid "You used some invalid characters."
+msgstr "Bazı geçersiz karakterler kullandın."
+
+#: static/game/js/level_editor.js:695
+msgid "Try saving your level again using only letters and numbers."
+msgstr "Sadece harfleri ve sayıları kullanarak seviyenizi tekrar kaydetmeyi deneyin."
+
+#: static/game/js/level_editor.js:727
+msgid "Overwriting"
+msgstr "Üzerine yazılıyor"
+
+#: static/game/js/level_editor.js:727
+msgid "Warning"
+msgstr "Uyarı"
+
+#: static/game/js/level_editor.js:728
+msgid "Level %(level_name)s already exists. Are you sure you want to overwrite it?"
+msgstr "%(level_name)s seviyesi zaten mevcut. Üzerine yazmak istediğinize emin misiniz?"
+
+#: static/game/js/level_editor.js:795
+msgid "To get started, draw a road."
+msgstr "Başlamak için bir yol çizin."
+
+#: static/game/js/level_editor.js:796
+msgid "Click on the square you want the road to start from. Then, without letting go of the mouse button, drag to the square you’d like the road to end on. Do this as many times as you like to add new sections of road."
+msgstr "Yolun başlamasını istediğiniz kareye tıklayın. Sonrasında, fare butonunu bırakmadan, yolun bitmesini istediğiniz çembere sürükleyin. Bunu, yola kaç kere yeni bölüm eklemek isterseniz o kadar tekrarlayın."
+
+#: static/game/js/level_editor.js:800
+msgid "In %(map_icon)s%(map_label)s menu, click %(mark_start_icon)s%(mark_start_label)s and select a square for your road to start from. The starting point can only be placed on dead ends. You need a road first before adding a starting point. Make sure you use %(mark_end_icon)s%(mark_end_label)s to select a final destination. Setting a fuel level means the route will need to be short enough for the fuel not to run out."
+msgstr "%(map_icon)s%(map_label)s menüsünde, %(mark_start_icon)s%(mark_start_label)s ikonuna tıklayın, sonra yolun başlayacağı kareyi seçin. Başlangıç noktaları sadece çıkmaz sokaklara yerleştirilebilir. Başlangıç noktasını belirlemeden önce bir yola ihtiyacınız var. Yolun bitiş noktasını belirmek için ise %(mark_end_icon)s%(mark_end_label)s ikonunu kullandığınızdan emin olun. Yakıt seviyesini ayarlamak, yolun yakıtın yeteceği kadar uzunlukta olması gerektiği anlamına gelir."
+
+#: static/game/js/level_editor.js:807 static/game/js/level_editor.js:2450
+#: static/game/js/level_editor.js:2466
+msgid "Map"
+msgstr "Harita"
+
+#: static/game/js/level_editor.js:816
+msgid "To remove road, click the %(delete_road_icon)s%(delete_road_label)s button and select a section to get rid of."
+msgstr "Yolu kaldırmak için %(delete_road_icon)s%(delete_road_label)s butonuna tıklayın ve kurtulmak için bir bölüm seçin."
+
+#: static/game/js/level_editor.js:825
+msgid "Click %(random_icon)s%(random_label)s if you want the computer to create a random route for you."
+msgstr "Bilgisayarın size rastgele bir rota oluşturmasını istiyorsanız %(random_icon)s%(random_label)s butonuna tıklayın."
+
+#: static/game/js/level_editor.js:827
+msgid "Random"
+msgstr "Rastgele"
+
+#: static/game/js/level_editor.js:832
+msgid "Select %(scenery_icon)s%(scenery_label)s and choose trees, bushes and more to place around your road. These will show in the top left corner - drag them into place. Delete items by dragging them into the bin in the bottom right. To rotate a traffic light, simply double click on it. Remember, using the traffic lights is not covered until level 44."
+msgstr "%(scenery_icon)s%(scenery_label)s seçin ve yolunuzun etrafına eklemek için ağaçlar, çalılar ve daha fazlasını seçin. Seçtikleriniz sol üst köşede belirecektir - sürükleyip yerine bırakın. Silmek için ise sağ altta bulunan çöp kutusuna sürükleyin. Trafik lambasını döndürmek için sadece üzerine çift tıklayın. Unutmayın ki trafik ışıkları 44. seviyeye kadar kullanılamaz."
+
+#: static/game/js/level_editor.js:838
+msgid "Scenery"
+msgstr "Sahne"
+
+#: static/game/js/level_editor.js:843
+msgid "Choose a character to play with from the %(character_icon)s%(character_label)s menu."
+msgstr "%(character_icon)s%(character_label)s menüsünden oynamak istediğiniz bir karakter seçin."
+
+#: static/game/js/level_editor.js:845
+msgid "Character"
+msgstr "Karakter"
+
+#: static/game/js/level_editor.js:850
+msgid "Select which blocks of code you want to be used to create a route for your character from the %(blocks_icon)s%(blocks_label)s menu."
+msgstr "%(blocks_icon)s%(blocks_label)s menüsünden karakteriniz için oluşturmak istediğiniz rotaya uygun kod bloklarını seçin."
+
+#: static/game/js/level_editor.js:854
+msgid "Blocks"
+msgstr "Bloklar"
+
+#: static/game/js/level_editor.js:859
+msgid "When you're ready click %(play_icon)s%(play_label)s, or %(save_icon)s%(save_label)s your road or %(share_icon)s%(share_label)s it with a friend. Don't forget to choose a good name for it!"
+msgstr "Hazır olduğunuzda oynamak için %(play_icon)s%(play_label)s, yolu kaydetmek için %(save_icon)s%(save_label)s veya bir arkadaşınızla paylaşmak için %(share_icon)s%(share_label)s ikonlarına tıklayın. Ama güzel bir isim vermeyi de unutmayın!"
+
+#: static/game/js/level_editor.js:865
+msgid "Save"
+msgstr "Kaydet"
+
+#: static/game/js/level_editor.js:867
+msgid "Share"
+msgstr "Paylaş"
+
+#: static/game/js/level_editor.js:872
+msgid "%(quit_icon)s%(quit_label)s will take you back to the Rapid Router homepage."
+msgstr "%(quit_icon)s%(quit_label)s ikonu seni Hızlı Rotacı ana sayfasına götürecek."
+
+#: static/game/js/level_editor.js:875
+msgid "Quit"
+msgstr "Çıkış"
+
+#: static/game/js/level_editor.js:957 static/game/js/level_editor.js:995
+msgid "Group %(cow_group)s"
+msgstr "%(cow_group)s grupla"
+
+#: static/game/js/level_editor.js:2446
+msgid "In %(map_icon)s%(map_label)s menu, click on %(add_road_icon)s%(add_road_label)s. Draw a road by clicking on a square then dragging to another square."
+msgstr "%(map_icon)s%(map_label)s menüsünden %(add_road_icon)s%(add_road_label)s ikonuna tıklayın. Kareden kareye tıklayıp sürükleyerek bir yol çizin."
+
+#: static/game/js/level_editor.js:2456
+msgid "You forgot to create a road."
+msgstr "Bir yol oluşturmayı unuttun."
+
+#: static/game/js/level_editor.js:2462
+msgid "In %(map_icon)s%(map_label)s menu, click on %(mark_start_icon)s%(mark_start_label)s or %(mark_end_icon)s%(mark_end_label)s then select the square where you want the road to start or end."
+msgstr ""
+
+#: static/game/js/level_editor.js:2474
+msgid "You forgot to mark the start and end points."
+msgstr "Başlangıç ve bitiş noktalarını işaretlemeyi unuttunuz."
+
+#: static/game/js/level_editor.js:2480 static/game/js/level_editor.js:2498
+msgid "Something is wrong..."
+msgstr "Birşeyler yanlış..."
+
+#: static/game/js/level_editor.js:2481
+msgid "There is no way to get from the start to the destination."
+msgstr "Başlangıçtan bitişe kadar bir yol bulunmuyor."
+
+#: static/game/js/level_editor.js:2482
+msgid "Edit your level to allow the driver to get to the end."
+msgstr "Sürücünün bitişe varmasını sağlamak için seviyeni düzenle."
+
+#: static/game/js/level_editor.js:2490
+msgid "Go to %(code_icon)s%(code_label)s and select some to use. Remember to include the move and turn commands!"
+msgstr "%(code_icon)s%(code_label)s'e git ve kullanmak için birşeyler seçin. İlerle ve dön komutlarını ilave etmeyi unutmayın!"
+
+#: static/game/js/level_editor.js:2494
+msgid "Code"
+msgstr "Kod"
+
+#: static/game/js/level_editor.js:2499
+msgid "You haven't selected any blocks to use in your level"
+msgstr "Seviyenizde kullanmak için hiçbir blok seçmediniz"
+
+#: static/game/js/level_editor.js:2514 static/game/js/level_editor.js:2517
+#: static/game/js/level_editor.js:2525
+msgid "Sharing"
+msgstr "Paylaşılıyor"
+
+#: static/game/js/level_editor.js:2514
+msgid "Please save your level before continuing!"
+msgstr "Devam etmeden önce lütfen seviyenizi kaydedin!"
+
+#: static/game/js/level_editor.js:2517
+msgid "Please save your latest changes!"
+msgstr "Lütfen son değişikliklerinizi kaydedin!"
+
+#: static/game/js/level_editor.js:2526
+msgid "You do not own this level. If you would like to share it you will first have to save your own copy!"
+msgstr "Bu seviyenin sahibi değilsiniz. Bunu paylaşmak istiyorsanız ilk önce kendinize bir kopya kaydetmelisiniz!"
+
+#: static/game/js/level_editor.js:2539
+msgid "Unfortunately you need to be logged in to save levels."
+msgstr "Ne yazık ki seviyeleri kaydetmek için oturum açmalısınız."
+
+#: static/game/js/level_editor.js:2542
+msgid "Unfortunately you need to be logged in to load levels."
+msgstr "Ne yazık ki seviyeleri yüklemek için oturum açmalısınız."
+
+#: static/game/js/level_editor.js:2545
+msgid "Unfortunately you need to be logged in to share levels."
+msgstr "Ne yazık ki seviyeleri paylaşmak için oturum açmalısınız."
+
+#: static/game/js/level_editor.js:2549
+msgid "You can log in as a %(student_login_url)s, %(teacher_login_url)s or %(independent_login_url)s."
+msgstr ""
+
+#: static/game/js/level_editor.js:2551
+msgctxt "login_url"
+msgid "student"
+msgstr ""
+
+#: static/game/js/level_editor.js:2552
+msgctxt "login_url"
+msgid "teacher"
+msgstr ""
+
+#: static/game/js/level_editor.js:2554
+msgctxt "login_url"
+msgid "independent student"
+msgstr ""
+
+#: static/game/js/level_editor.js:2559
+msgid "Not logged in"
+msgstr "Oturum açılmadı"
+
+#: static/game/js/level_editor.js:2567
+msgid "Sharing as an independent student"
+msgstr "Bağımsız bir öğrenci olarak paylaşılıyor"
+
+#: static/game/js/level_editor.js:2568
+msgid "Sorry but as an independent student you'll need to join a school or club to share your levels with others."
+msgstr "Üzgünüz, fakat seviyelerinizi diğerleri ile paylaşmak için bir okul veya kulübe kayıtlı bir öğrenci olmalısınız."
+
+#: static/game/js/level_editor.js:2804
+msgid "Click %(help_icon)s%(help_label)s for clues on getting started."
+msgstr "Başlarken ipuçları için %(help_icon)s%(help_label)s'e tıklayın."
+
+#: static/game/js/level_editor.js:2806
+msgid "Help"
+msgstr "Yardım"
+
+#: static/game/js/level_editor.js:2811
+msgid "Welcome to the Level editor!"
+msgstr "Seviye editörüne hoş geldiniz!"
+
+#: static/game/js/level_editor.js:2823
+msgid "Welcome back!"
+msgstr ""
+
+#: static/game/js/level_editor.js:2824
+msgid "Would you like to edit or play with your design?"
+msgstr ""
+
+#: static/game/js/model.js:158
+msgid "You ran into a cow! Keep in mind that cows can appear anywhere on the map."
+msgstr "Bir ineğe çarptın! İneklerin haritanın herhangi bir noktasında ortaya çıkabileceğini unutmayın."
+
+#: static/game/js/model.js:166
+msgid "Your first move was a crash. What went wrong?"
+msgstr "İlk hareketiniz bir kazaya sebep oldu. Yanlış olan neydi?"
+
+#: static/game/js/model.js:169
+msgid "Your first move was right. What went wrong after that?"
+msgid_plural "Your first %(correct_steps)s moves worked. What went wrong after that?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: static/game/js/model.js:193
+msgid "You ran out of fuel! Try to find a shorter route to the destination."
+msgstr "Yakıtınız bitti! Hedefe giden daha kısa bir bulun."
+
+#: static/game/js/model.js:231
+msgid "Uh oh, you just sent the van through a red light! Stick to the Highway Code - the van must wait for green."
+msgstr "Eyvah eyvah, kamyoneti kırmızı ışıkta geçirdin! Otoyol kurallarına bağlı kalın - kamyonet yeşil ışığı beklemeli."
+
+#: static/game/js/model.js:395
+msgid "You have already delivered to that destination! You must only deliver once to each destination."
+msgstr "Zaten bu hedefe daha önce teslimat yaptınız! Her hedefe yalnızca bir defa teslimat yapabilirsiniz."
+
+#: static/game/js/model.js:490
+msgid "The van ran out of instructions before it reached a destination. Make sure there are enough instructions to complete the delivery."
+msgstr "Kamyonet hedefine daha ulaşmadan komutlar bitti. Teslimatı tamamlamak için yeterli miktarda komut kullandığınızdan emin olun."
+
+#: static/game/js/model.js:507
+msgid "The van visited the destination, but didn't stop there!"
+msgstr "Kamyonet hedefe ulaştı fakat orada durmadı!"
+
+#: static/game/js/model.js:518
+msgid "There are destinations that have not been delivered to. Ensure you visit all destinations and use the deliver command at each one."
+msgstr "Henüz teslimat yapılmamış hedefler var. Tüm hedefleri ziyaret ettiğinizden ve her birinde teslim et komutu kullandığınızdan emin olun."
+
+#: static/game/js/model.js:533
+msgid "Make sure your blocks are connected to the Start block."
+msgstr "Blokları Başlangıç bloğuna tutturduğunuzdan emin olun."
+
+#: static/game/js/pathFinder.js:72
+msgid "Try finding a shorter route to the destination."
+msgstr "Hedefe giden daha kısa bir rota bulmayı deneyin."
+
+#: static/game/js/pathFinder.js:74
+msgid "Try creating a simpler program."
+msgstr "Daha basit bir program oluşturmayı deneyin."
+
+#: static/game/js/pathFinder.js:76
+msgid "That solution isn't quite right. Read the level instructions or click Help."
+msgstr "Çözümünüz yeterli değil. Seviye komutlarını okuyun veya yardıma tıklayın."
+
+#: static/game/js/pathFinder.js:78
+msgid "Congratulations! You've aced it."
+msgstr "Tebrikler! Başardın."
+
+#: static/game/js/program.js:61
+msgid "It looks as though your program's been running a while. Check your repeat loops are okay."
+msgstr "Programınız bir süredir çalışıyormuş gibi görünüyor. Tekrar döngülerinin doğru olup olmadığını kontrol edin."
+
+#: static/game/js/sharing.js:10 static/game/js/sharing.js:11
+msgid "Yes"
+msgstr "Evet"
+
+#: static/game/js/sharing.js:12
+msgid "No"
+msgstr "Hayır"
+
+#: static/game/js/sharing.js:141
+msgid "Unshare with all"
+msgstr "Tümüyle olan paylaşımları iptal et"
+
+#: static/game/js/sharing.js:147
+msgid "Share with all"
+msgstr "Tümüyle paylaş"
+

@@ -1,0 +1,405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: code-for-life\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-06 11:43+0000\n"
+"PO-Revision-Date: 2022-10-06 11:43\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: code-for-life\n"
+"X-Crowdin-Project-ID: 163289\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /game/locale/en_GB/LC_MESSAGES/django.po\n"
+"X-Crowdin-File-ID: 12\n"
+
+#: templates/game/base.html:47
+msgid "Levels"
+msgstr "Livelli"
+
+#: templates/game/base.html:51
+msgid "Create"
+msgstr "Crea"
+
+#: templates/game/base.html:56
+msgid "Scoreboard"
+msgstr "Classifica"
+
+#: templates/game/base.html:62
+msgid "Moderate"
+msgstr "Modera"
+
+#: templates/game/game.html:157 templates/game/level_editor.html:415
+msgid "Blockly"
+msgstr "Blockly"
+
+#: templates/game/game.html:164 templates/game/level_editor.html:417
+msgid "Python"
+msgstr "Python"
+
+#: templates/game/game.html:172
+msgid "Clear"
+msgstr "Reset"
+
+#: templates/game/game.html:182 templates/game/level_editor.html:144
+msgid "Play"
+msgstr "Play"
+
+#: templates/game/game.html:191
+msgid "Fast"
+msgstr "Veloce"
+
+#: templates/game/game.html:199
+msgid "Stop"
+msgstr "Stop"
+
+#: templates/game/game.html:207
+msgid "Step"
+msgstr "Passo"
+
+#: templates/game/game.html:217
+msgid "Solve"
+msgstr "Risolvi"
+
+#: templates/game/game.html:225 templates/game/game.html:357
+#: templates/game/game.html:386 templates/game/level_editor.html:204
+#: templates/game/level_editor.html:508 templates/game/level_editor.html:554
+msgid "Load"
+msgstr "Carica"
+
+#: templates/game/game.html:233 templates/game/game.html:393
+#: templates/game/game.html:414 templates/game/level_editor.html:212
+#: templates/game/level_editor.html:560 templates/game/level_editor.html:590
+msgid "Save"
+msgstr "Salva"
+
+#: templates/game/game.html:253 templates/game/level_editor.html:230
+msgid "Help"
+msgstr "Aiuto"
+
+#: templates/game/game.html:269
+msgid "Mute"
+msgstr ""
+
+#: templates/game/game.html:278
+msgid "Day"
+msgstr "Giorno"
+
+#: templates/game/game.html:281
+msgid "Night"
+msgstr "Notte"
+
+#: templates/game/game.html:290
+msgid "Exit"
+msgstr ""
+
+#: templates/game/game.html:309
+msgid "This is what your program would look like in Python:"
+msgstr "In Python il tuo programma sarebbe così:"
+
+#: templates/game/game.html:318
+msgid "Python Program"
+msgstr "Programma in Python"
+
+#: templates/game/game.html:321
+msgid "Convert from Blockly"
+msgstr "Converti da Blockly"
+
+#: templates/game/game.html:326
+msgid "Use the Python editor below to design your program, and then click play to try it out!"
+msgstr "Usa l'editor Python qui sotto per scrivere il tuo programma, quindi clicca su play per provarlo!"
+
+#: templates/game/game.html:329
+msgid "Commands"
+msgstr "Comandi"
+
+#: templates/game/game.html:340
+msgid "Run code"
+msgstr ""
+
+#: templates/game/game.html:344
+msgid "Console log"
+msgstr ""
+
+#: templates/game/game.html:349
+msgid "Clear console"
+msgstr "Cancella console"
+
+#: templates/game/game.html:358
+msgid "Here you can load a program you've previously saved!"
+msgstr "Qui puoi caricare un programma salvato!"
+
+#: templates/game/game.html:361
+msgid "You don't have any programs to load yet. Try saving one!"
+msgstr "Non c'è nessun programma da caricare. Prova a salvarne uno!"
+
+#: templates/game/game.html:367 templates/game/game.html:399
+#: templates/game/game.html:442 templates/game/level_editor.html:530
+#: templates/game/level_editor.html:569 templates/game/level_editor.html:623
+msgid "Name"
+msgstr "Nome"
+
+#: templates/game/game.html:381 templates/game/level_editor.html:549
+msgid "Delete"
+msgstr "Elimina"
+
+#: templates/game/game.html:394
+msgid "Here you can save your program so you can retrieve it later!"
+msgstr "Qui puoi salvare il tuo programma per caricarlo più tardi!"
+
+#: templates/game/game.html:443 templates/game/level_editor.html:624
+msgid "Shared"
+msgstr ""
+
+#: templates/game/level_editor.html:135
+msgid "Delete Road"
+msgstr "Cancella strada"
+
+#: templates/game/level_editor.html:152
+msgid "Play Night"
+msgstr "Gioca di notte"
+
+#: templates/game/level_editor.html:162 templates/game/level_editor.html:247
+msgid "Map"
+msgstr "Mappa"
+
+#: templates/game/level_editor.html:170 templates/game/level_editor.html:304
+msgid "Scenery"
+msgstr "Scenario"
+
+#: templates/game/level_editor.html:178 templates/game/level_editor.html:389
+msgid "Character"
+msgstr "Personaggio"
+
+#: templates/game/level_editor.html:186 templates/game/level_editor.html:406
+msgid "Code"
+msgstr "Codice"
+
+#: templates/game/level_editor.html:194 templates/game/level_editor.html:459
+msgid "Random"
+msgstr "Random"
+
+#: templates/game/level_editor.html:220 templates/game/level_editor.html:595
+msgid "Share"
+msgstr "Condividi"
+
+#: templates/game/level_editor.html:238
+msgid "Quit"
+msgstr "Esci"
+
+#: templates/game/level_editor.html:248
+msgid "Here you can design your level! What sort of road will you make?"
+msgstr "Qui puoi creare il tuo livello! Che tipo di percorso vuoi creare?"
+
+#: templates/game/level_editor.html:253
+msgid "Max fuel:"
+msgstr "Carburante massimo:"
+
+#: templates/game/level_editor.html:263
+msgid "Add road"
+msgstr "Aggiungi"
+
+#: templates/game/level_editor.html:269
+msgid "Delete road"
+msgstr "Cancella"
+
+#: templates/game/level_editor.html:277
+msgid "Mark start"
+msgstr "Partenza"
+
+#: templates/game/level_editor.html:283
+msgid "Mark end"
+msgstr "Arrivo"
+
+#: templates/game/level_editor.html:291
+msgid "Clear all"
+msgstr "Cancella tutto"
+
+#: templates/game/level_editor.html:305
+msgid "Here you can liven up your level by choosing the theme and adding scenery! Will you create beautiful countryside or a bustling city?"
+msgstr "Qui puoi personalizzare il tuo livello scegliendo un tema e aggiungendo degli elementi di scenario! Vuoi creare una splendida campagna o una città frenetica?"
+
+#: templates/game/level_editor.html:312
+msgid "Theme:"
+msgstr "Tema:"
+
+#: templates/game/level_editor.html:322 templates/game/level_editor.html:490
+msgid "Scenery:"
+msgstr "Scenario:"
+
+#: templates/game/level_editor.html:332
+msgid "Traffic lights:"
+msgstr "Semafori:"
+
+#: templates/game/level_editor.html:338
+msgid "Cows:"
+msgstr "Mucche:"
+
+#: templates/game/level_editor.html:343
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: templates/game/level_editor.html:351
+msgid "Advanced options"
+msgstr "Opzioni avanzate"
+
+#: templates/game/level_editor.html:369
+msgid "How many cows should appear for this group?"
+msgstr "Quante mucche dovrebbero apparire per questo gruppo?"
+
+#: templates/game/level_editor.html:371
+msgid "Min:"
+msgstr "Min:"
+
+#: templates/game/level_editor.html:372
+msgid "Max:"
+msgstr "Max:"
+
+#: templates/game/level_editor.html:390
+msgid "Here you can choose your character. Who will you play as?"
+msgstr ""
+
+#: templates/game/level_editor.html:393
+msgid "Character:"
+msgstr "Personaggio:"
+
+#: templates/game/level_editor.html:407
+msgid "Here you can select the code you can use while playing your new level!"
+msgstr "Qui puoi scegliere il linguaggio da utilizzare nel tuo nuovo livello!"
+
+#: templates/game/level_editor.html:413
+msgid "Language:"
+msgstr "Linguaggio:"
+
+#: templates/game/level_editor.html:416
+msgid "Blockly With Python View"
+msgstr "Blockly con Python"
+
+#: templates/game/level_editor.html:418
+msgid "Both"
+msgstr "Entrambi"
+
+#: templates/game/level_editor.html:428
+msgid "Select all"
+msgstr "Seleziona tutto"
+
+#: templates/game/level_editor.html:460
+msgid "Here you can generate a random map. Try changing some of the parameters below and see what you get!"
+msgstr "Qui puoi generare una mappa casuale. Prova a cambiare i parametri qui sotto e vediamo che succede!"
+
+#: templates/game/level_editor.html:465
+msgid "Size:"
+msgstr "Dimensione:"
+
+#: templates/game/level_editor.html:469
+msgid "Branchiness:"
+msgstr "Ramificazioni:"
+
+#: templates/game/level_editor.html:473
+msgid "Loopiness:"
+msgstr "Tortuosità:"
+
+#: templates/game/level_editor.html:477
+msgid "Curviness:"
+msgstr "Numero di curve:"
+
+#: templates/game/level_editor.html:481
+msgid "Traffic Lights:"
+msgstr "Semafori:"
+
+#: templates/game/level_editor.html:484 templates/game/level_editor.html:493
+msgid "Yes"
+msgstr "Sì"
+
+#: templates/game/level_editor.html:485 templates/game/level_editor.html:494
+msgid "No"
+msgstr "No"
+
+#: templates/game/level_editor.html:501
+msgid "Generate"
+msgstr "Genera"
+
+#: templates/game/level_editor.html:509
+msgid "Here you can load in levels created by you and your friends! Select a level in the table and press load."
+msgstr "Qui puoi caricare i livelli creati da te e dai tuoi amici! Seleziona un livello nella tabella e premi carica."
+
+#: templates/game/level_editor.html:514
+msgid "You don't have any levels to load yet. Try saving one!"
+msgstr "Non hai nessun livello da caricare. Prova a salvarne uno!"
+
+#: templates/game/level_editor.html:519
+msgid "Load:"
+msgstr "Carica:"
+
+#: templates/game/level_editor.html:521
+msgid "your own levels"
+msgstr "i tuoi livelli"
+
+#: templates/game/level_editor.html:522
+msgid "shared levels"
+msgstr "livelli condivisi"
+
+#: templates/game/level_editor.html:531 templates/game/level_editor.html:570
+msgid "Owner"
+msgstr "Autore"
+
+#: templates/game/level_editor.html:561
+msgid "Here you can save your new level. Enter a name below and hit save. Alternatively click on an existing level to update it."
+msgstr "Qui puoi salvare i tuoi nuovi livelli. Inserisci un nome qui sotto e clicca su Salva. Altrimenti puoi cliccare su un livello esistente per modificarlo."
+
+#: templates/game/level_editor.html:562
+msgid "To play your level and be tracked, first <b>Quit</b> the Level Editor and select your level from the 'Levels created by you' section."
+msgstr ""
+
+#: templates/game/level_editor.html:582
+msgid "Name:"
+msgstr "Nome:"
+
+#: templates/game/level_editor.html:598
+msgid "Here you can share your level with your classes or your fellow teachers."
+msgstr ""
+
+#: templates/game/level_editor.html:601
+msgid "Here you can share your level with your classmates. Try clicking in the Shared column!"
+msgstr ""
+
+#: templates/game/level_editor.html:607
+msgid "Share with:"
+msgstr ""
+
+#: templates/game/level_editor.html:609
+msgid "Classes"
+msgstr ""
+
+#: templates/game/level_editor.html:610
+msgid "Teachers"
+msgstr ""
+
+#: templates/game/level_editor.html:615
+msgid "Class:"
+msgstr ""
+
+#: templates/game/level_editor.html:638
+msgid "Share with all"
+msgstr ""
+
+#: theme.py:23
+msgid "Grass"
+msgstr ""
+
+#: theme.py:31
+msgid "Snow"
+msgstr ""
+
+#: theme.py:39
+msgid "Farm"
+msgstr ""
+
+#: theme.py:47
+msgid "City"
+msgstr ""
+

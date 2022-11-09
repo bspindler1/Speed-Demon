@@ -1,0 +1,405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: code-for-life\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-06 11:43+0000\n"
+"PO-Revision-Date: 2022-10-06 11:43\n"
+"Last-Translator: \n"
+"Language-Team: Catalan\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: code-for-life\n"
+"X-Crowdin-Project-ID: 163289\n"
+"X-Crowdin-Language: ca\n"
+"X-Crowdin-File: /game/locale/en_GB/LC_MESSAGES/django.po\n"
+"X-Crowdin-File-ID: 12\n"
+
+#: templates/game/base.html:47
+msgid "Levels"
+msgstr "Nivells"
+
+#: templates/game/base.html:51
+msgid "Create"
+msgstr "Crea"
+
+#: templates/game/base.html:56
+msgid "Scoreboard"
+msgstr "Puntuacions"
+
+#: templates/game/base.html:62
+msgid "Moderate"
+msgstr "Modera"
+
+#: templates/game/game.html:157 templates/game/level_editor.html:415
+msgid "Blockly"
+msgstr "Blockly"
+
+#: templates/game/game.html:164 templates/game/level_editor.html:417
+msgid "Python"
+msgstr "Python"
+
+#: templates/game/game.html:172
+msgid "Clear"
+msgstr "Esborra"
+
+#: templates/game/game.html:182 templates/game/level_editor.html:144
+msgid "Play"
+msgstr "Inici"
+
+#: templates/game/game.html:191
+msgid "Fast"
+msgstr "Ràpid"
+
+#: templates/game/game.html:199
+msgid "Stop"
+msgstr "Atura"
+
+#: templates/game/game.html:207
+msgid "Step"
+msgstr "Pas"
+
+#: templates/game/game.html:217
+msgid "Solve"
+msgstr "Resol"
+
+#: templates/game/game.html:225 templates/game/game.html:357
+#: templates/game/game.html:386 templates/game/level_editor.html:204
+#: templates/game/level_editor.html:508 templates/game/level_editor.html:554
+msgid "Load"
+msgstr "Carrega"
+
+#: templates/game/game.html:233 templates/game/game.html:393
+#: templates/game/game.html:414 templates/game/level_editor.html:212
+#: templates/game/level_editor.html:560 templates/game/level_editor.html:590
+msgid "Save"
+msgstr "Desa"
+
+#: templates/game/game.html:253 templates/game/level_editor.html:230
+msgid "Help"
+msgstr "Ajuda"
+
+#: templates/game/game.html:269
+msgid "Mute"
+msgstr "Silencia"
+
+#: templates/game/game.html:278
+msgid "Day"
+msgstr "Dia"
+
+#: templates/game/game.html:281
+msgid "Night"
+msgstr "Nit"
+
+#: templates/game/game.html:290
+msgid "Exit"
+msgstr ""
+
+#: templates/game/game.html:309
+msgid "This is what your program would look like in Python:"
+msgstr "Així es com es veuria el teu programa en Python:"
+
+#: templates/game/game.html:318
+msgid "Python Program"
+msgstr "Programa en Python"
+
+#: templates/game/game.html:321
+msgid "Convert from Blockly"
+msgstr "Convertir de Blockly"
+
+#: templates/game/game.html:326
+msgid "Use the Python editor below to design your program, and then click play to try it out!"
+msgstr "Fes servir l'editor de Python que hi ha a sota per dissenyar el teu programa, i clica Inici per posar a prova el resultat!"
+
+#: templates/game/game.html:329
+msgid "Commands"
+msgstr "Ordres"
+
+#: templates/game/game.html:340
+msgid "Run code"
+msgstr ""
+
+#: templates/game/game.html:344
+msgid "Console log"
+msgstr ""
+
+#: templates/game/game.html:349
+msgid "Clear console"
+msgstr "Neteja la consola"
+
+#: templates/game/game.html:358
+msgid "Here you can load a program you've previously saved!"
+msgstr "Aquí pots carregar un programa prèviament guardat!"
+
+#: templates/game/game.html:361
+msgid "You don't have any programs to load yet. Try saving one!"
+msgstr "Encara no tens cap programa per carregar. Prova de desar-ne un!"
+
+#: templates/game/game.html:367 templates/game/game.html:399
+#: templates/game/game.html:442 templates/game/level_editor.html:530
+#: templates/game/level_editor.html:569 templates/game/level_editor.html:623
+msgid "Name"
+msgstr "Nom"
+
+#: templates/game/game.html:381 templates/game/level_editor.html:549
+msgid "Delete"
+msgstr "Esborra"
+
+#: templates/game/game.html:394
+msgid "Here you can save your program so you can retrieve it later!"
+msgstr "Pots desar el teu programa per a recuperar-lo més tard!"
+
+#: templates/game/game.html:443 templates/game/level_editor.html:624
+msgid "Shared"
+msgstr "Compartit"
+
+#: templates/game/level_editor.html:135
+msgid "Delete Road"
+msgstr "Esborrar carretera"
+
+#: templates/game/level_editor.html:152
+msgid "Play Night"
+msgstr "Juga de nit"
+
+#: templates/game/level_editor.html:162 templates/game/level_editor.html:247
+msgid "Map"
+msgstr "Mapa"
+
+#: templates/game/level_editor.html:170 templates/game/level_editor.html:304
+msgid "Scenery"
+msgstr "Paisatge"
+
+#: templates/game/level_editor.html:178 templates/game/level_editor.html:389
+msgid "Character"
+msgstr "Personatge"
+
+#: templates/game/level_editor.html:186 templates/game/level_editor.html:406
+msgid "Code"
+msgstr "Codi"
+
+#: templates/game/level_editor.html:194 templates/game/level_editor.html:459
+msgid "Random"
+msgstr "Aleatori"
+
+#: templates/game/level_editor.html:220 templates/game/level_editor.html:595
+msgid "Share"
+msgstr "Comparteix"
+
+#: templates/game/level_editor.html:238
+msgid "Quit"
+msgstr "Surt"
+
+#: templates/game/level_editor.html:248
+msgid "Here you can design your level! What sort of road will you make?"
+msgstr "Ara pots dissenyar el teu propi nivell! Quin tipus de carretera faràs?"
+
+#: templates/game/level_editor.html:253
+msgid "Max fuel:"
+msgstr "Combustible màxim:"
+
+#: templates/game/level_editor.html:263
+msgid "Add road"
+msgstr "Afegeix carretera"
+
+#: templates/game/level_editor.html:269
+msgid "Delete road"
+msgstr "Elimina carretera"
+
+#: templates/game/level_editor.html:277
+msgid "Mark start"
+msgstr "Marca el començament"
+
+#: templates/game/level_editor.html:283
+msgid "Mark end"
+msgstr "Marca el final"
+
+#: templates/game/level_editor.html:291
+msgid "Clear all"
+msgstr "Esborra-ho tot"
+
+#: templates/game/level_editor.html:305
+msgid "Here you can liven up your level by choosing the theme and adding scenery! Will you create beautiful countryside or a bustling city?"
+msgstr "Ara pots animar el teu nivell canviant el tema i afegint decorats! Faràs una ciutat bulliciosa o preciosos camps?"
+
+#: templates/game/level_editor.html:312
+msgid "Theme:"
+msgstr "Tema:"
+
+#: templates/game/level_editor.html:322 templates/game/level_editor.html:490
+msgid "Scenery:"
+msgstr "Paisatge:"
+
+#: templates/game/level_editor.html:332
+msgid "Traffic lights:"
+msgstr "Semàfors:"
+
+#: templates/game/level_editor.html:338
+msgid "Cows:"
+msgstr "Vaques:"
+
+#: templates/game/level_editor.html:343
+msgid "Advanced"
+msgstr "Avançat"
+
+#: templates/game/level_editor.html:351
+msgid "Advanced options"
+msgstr "Opcions avançades"
+
+#: templates/game/level_editor.html:369
+msgid "How many cows should appear for this group?"
+msgstr "Quantes vaques haurien d’aparèixer per a aquest grup?"
+
+#: templates/game/level_editor.html:371
+msgid "Min:"
+msgstr "Mínim:"
+
+#: templates/game/level_editor.html:372
+msgid "Max:"
+msgstr "Màxim:"
+
+#: templates/game/level_editor.html:390
+msgid "Here you can choose your character. Who will you play as?"
+msgstr "Aquí pots escollir el teu personatge. Qui seràs?"
+
+#: templates/game/level_editor.html:393
+msgid "Character:"
+msgstr "Personatge:"
+
+#: templates/game/level_editor.html:407
+msgid "Here you can select the code you can use while playing your new level!"
+msgstr "Aquí pots seleccionar el codi que podràs fer servir mentre juguis el teu nou nivell!"
+
+#: templates/game/level_editor.html:413
+msgid "Language:"
+msgstr "Llenguatge de programació:"
+
+#: templates/game/level_editor.html:416
+msgid "Blockly With Python View"
+msgstr "Blockly amb vista de Python"
+
+#: templates/game/level_editor.html:418
+msgid "Both"
+msgstr "Ambdós"
+
+#: templates/game/level_editor.html:428
+msgid "Select all"
+msgstr "Selecciona-ho tot"
+
+#: templates/game/level_editor.html:460
+msgid "Here you can generate a random map. Try changing some of the parameters below and see what you get!"
+msgstr "Aquí pots generar un mapa aleatori. Prova de canviar alguns dels paràmetres de sota i observa els resultats!"
+
+#: templates/game/level_editor.html:465
+msgid "Size:"
+msgstr "Mida:"
+
+#: templates/game/level_editor.html:469
+msgid "Branchiness:"
+msgstr "Ramificacions:"
+
+#: templates/game/level_editor.html:473
+msgid "Loopiness:"
+msgstr "Bucles:"
+
+#: templates/game/level_editor.html:477
+msgid "Curviness:"
+msgstr "Curves:"
+
+#: templates/game/level_editor.html:481
+msgid "Traffic Lights:"
+msgstr "Semàfors:"
+
+#: templates/game/level_editor.html:484 templates/game/level_editor.html:493
+msgid "Yes"
+msgstr "Si"
+
+#: templates/game/level_editor.html:485 templates/game/level_editor.html:494
+msgid "No"
+msgstr "No"
+
+#: templates/game/level_editor.html:501
+msgid "Generate"
+msgstr "Genera"
+
+#: templates/game/level_editor.html:509
+msgid "Here you can load in levels created by you and your friends! Select a level in the table and press load."
+msgstr "Aquí pots carregar els nivells creats per tu i els teus amics! Selecciona un nivell a la taula i prem Carrega."
+
+#: templates/game/level_editor.html:514
+msgid "You don't have any levels to load yet. Try saving one!"
+msgstr "No tens cap nivell per carregar. Prova de desar-ne un!"
+
+#: templates/game/level_editor.html:519
+msgid "Load:"
+msgstr "Carrega:"
+
+#: templates/game/level_editor.html:521
+msgid "your own levels"
+msgstr "els teus nivells"
+
+#: templates/game/level_editor.html:522
+msgid "shared levels"
+msgstr "nivells compartits"
+
+#: templates/game/level_editor.html:531 templates/game/level_editor.html:570
+msgid "Owner"
+msgstr "Propietari"
+
+#: templates/game/level_editor.html:561
+msgid "Here you can save your new level. Enter a name below and hit save. Alternatively click on an existing level to update it."
+msgstr "Aquí pots desar el teu nou nivell. Introdueix un nom a sota i prem \"desa\". Alternativament, fes clic en un nivell existent per a actualitzar-lo."
+
+#: templates/game/level_editor.html:562
+msgid "To play your level and be tracked, first <b>Quit</b> the Level Editor and select your level from the 'Levels created by you' section."
+msgstr "Per jugar el teu nivell i ser enregistrat, <b>Surt</b> de l'Editor de Nivells i selecciona el teu nivell de la secció \"Nivells creats per tu\"."
+
+#: templates/game/level_editor.html:582
+msgid "Name:"
+msgstr "Nom:"
+
+#: templates/game/level_editor.html:598
+msgid "Here you can share your level with your classes or your fellow teachers."
+msgstr "Aquí pots compartir el teu nivell amb les teves classes o els altres professors."
+
+#: templates/game/level_editor.html:601
+msgid "Here you can share your level with your classmates. Try clicking in the Shared column!"
+msgstr "Aquí pots compartir el teu nivell els teus companys de classe. Prova de clicar a la columna Compartit!"
+
+#: templates/game/level_editor.html:607
+msgid "Share with:"
+msgstr "Comparteix amb:"
+
+#: templates/game/level_editor.html:609
+msgid "Classes"
+msgstr "Classes"
+
+#: templates/game/level_editor.html:610
+msgid "Teachers"
+msgstr "Professors"
+
+#: templates/game/level_editor.html:615
+msgid "Class:"
+msgstr "Classe:"
+
+#: templates/game/level_editor.html:638
+msgid "Share with all"
+msgstr "Compartit amb tothom"
+
+#: theme.py:23
+msgid "Grass"
+msgstr "Herba"
+
+#: theme.py:31
+msgid "Snow"
+msgstr "Neu"
+
+#: theme.py:39
+msgid "Farm"
+msgstr "Granja"
+
+#: theme.py:47
+msgid "City"
+msgstr "Ciutat"
+

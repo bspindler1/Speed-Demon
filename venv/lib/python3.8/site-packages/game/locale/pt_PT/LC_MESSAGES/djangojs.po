@@ -1,0 +1,739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: code-for-life\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 14:36+0000\n"
+"PO-Revision-Date: 2022-10-24 14:36\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: code-for-life\n"
+"X-Crowdin-Project-ID: 163289\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: /game/locale/en_GB/LC_MESSAGES/djangojs.po\n"
+"X-Crowdin-File-ID: 23\n"
+
+#: static/game/js/animation.js:256
+msgid "You win!"
+msgstr ""
+
+#: static/game/js/animation.js:260
+msgid "Route score: "
+msgstr ""
+
+#: static/game/js/animation.js:265
+msgid "Algorithm score: "
+msgstr ""
+
+#: static/game/js/animation.js:271
+msgid "Your total score: %(totalScore)s/%(maxScore)s"
+msgstr ""
+
+#: static/game/js/animation.js:284
+msgid "Looks like you've got a route sorted using Blockly.<br><br>Now go to the Python tab and see if you can do the same in Python! "
+msgstr ""
+
+#: static/game/js/animation.js:286 static/game/js/drawing.js:1055
+msgid "Close"
+msgstr ""
+
+#: static/game/js/animation.js:290
+msgid "Next Level"
+msgstr ""
+
+#: static/game/js/animation.js:301
+msgid "Well done, you've completed the episode! <br> Are you ready for the next challenge? "
+msgstr ""
+
+#: static/game/js/animation.js:303
+msgid "Or try one of this episode's random levels!"
+msgstr ""
+
+#: static/game/js/animation.js:306
+msgid "Next episode"
+msgstr ""
+
+#: static/game/js/animation.js:308
+msgid "Random level"
+msgstr ""
+
+#: static/game/js/animation.js:310 static/game/js/animation.js:314
+#: static/game/js/animation.js:318
+msgid "Home"
+msgstr ""
+
+#: static/game/js/animation.js:312
+msgid "That's all we've got for you right now. Carry on the fun by creating your own challenges."
+msgstr ""
+
+#: static/game/js/animation.js:313
+msgid "Create your own map!"
+msgstr ""
+
+#: static/game/js/animation.js:316
+msgid "Do you want to try another random level?"
+msgstr ""
+
+#: static/game/js/animation.js:317
+msgid "Have more fun!"
+msgstr ""
+
+#: static/game/js/animation.js:325 static/game/js/game.js:156
+#: static/game/js/game.js:166
+msgid "Oh dear!"
+msgstr ""
+
+#: static/game/js/animation.js:334
+msgid "Are you stuck? Do you need help?"
+msgstr ""
+
+#: static/game/js/blocklyCompiler.js:30 static/game/js/blocklyCompiler.js:35
+msgid "Perhaps try looking at your 'define' blocks?"
+msgstr ""
+
+#: static/game/js/blocklyCompiler.js:41
+msgid "Perhaps try checking the names of your 'define' blocks?"
+msgstr ""
+
+#: static/game/js/blocklyCompiler.js:56
+msgid "Perhaps try looking at your 'event' blocks?"
+msgstr ""
+
+#: static/game/js/blocklyCompiler.js:85 static/game/js/blocklyCompiler.js:127
+#: static/game/js/blocklyCompiler.js:481
+msgid "Perhaps try checking the names in your 'call' blocks?"
+msgstr ""
+
+#: static/game/js/blocklyCompiler.js:97 static/game/js/blocklyCompiler.js:105
+#: static/game/js/blocklyCompiler.js:113 static/game/js/blocklyCompiler.js:119
+#: static/game/js/blocklyCompiler.js:138 static/game/js/blocklyCompiler.js:149
+#: static/game/js/blocklyCompiler.js:158 static/game/js/blocklyCompiler.js:390
+#: static/game/js/blocklyCompiler.js:398 static/game/js/blocklyCompiler.js:406
+#: static/game/js/blocklyCompiler.js:412 static/game/js/blocklyCompiler.js:420
+#: static/game/js/blocklyCompiler.js:431 static/game/js/blocklyCompiler.js:440
+msgid "Perhaps try looking at your 'repeat' blocks?"
+msgstr ""
+
+#: static/game/js/blocklyCompiler.js:193 static/game/js/blocklyCompiler.js:457
+msgid "Perhaps try looking at your 'if' blocks?"
+msgstr ""
+
+#: static/game/js/blocklyControl.js:45
+msgid "Your program doesn't look quite right..."
+msgstr ""
+
+#: static/game/js/blocklyControl.js:96
+msgid "Loading workspace"
+msgstr ""
+
+#: static/game/js/blocklyControl.js:98
+msgid "Sorry, this workspace has blocks in it that aren't allowed in this level!"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:19
+msgid "Start"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:24
+msgid "The beginning of the program"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:38
+msgid "move forwards"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:44
+msgid "Move the van forwards"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:53
+msgid "turn left"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:62
+msgid "Turn the van left"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:71
+msgid "turn right"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:80
+msgid "Turn the van right"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:89
+msgid "turn around"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:99
+msgid "Turn the van around"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:108
+msgid "wait"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:117
+msgid "Keep the van stationary"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:126
+msgid "deliver"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:135
+msgid "Deliver the goods from the van"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:144
+msgid "puff up"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:153
+msgid "Puff up the van to scare away the cows"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:162
+msgid "sound horn"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:171
+msgid "Sound the horn to scare away the cows"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:182
+msgid "road exists forward"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:183
+msgid "road exists left"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:184
+msgid "road exists right"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:198
+msgid "traffic light red"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:199
+msgid "traffic light green"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:215
+msgid "is dead end"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:227
+msgid "at destination"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:244
+#: static/game/js/blocklyCustomBlocks.js:250
+msgid "Call"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:261
+msgid "Define"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:265
+#: static/game/js/blocklyCustomBlocks.js:293
+msgid "Do"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:266
+msgid "Declares the procedure"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:280
+msgid "white"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:280
+msgid "brown"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:285
+msgid "On "
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:294
+msgid "Declares the event handler"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:309
+msgid "repeat while"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:312
+#: static/game/js/blocklyCustomBlocks.js:328
+#: static/game/js/blocklyMessages.js:11 static/game/js/blocklyMessages.js:15
+msgid "do"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:315
+msgid "While a value is true, do some statements"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:325
+msgid "repeat until"
+msgstr ""
+
+#: static/game/js/blocklyCustomBlocks.js:331
+msgid "Until a value is true, do some statements"
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:4
+msgid "If a value is true, then do some statements."
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:5
+msgid "If a value is true, then do the first block of statements. Otherwise, do the second block of statements."
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:6
+msgid "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements."
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:7
+msgid "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements."
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:8
+msgid "if"
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:9
+msgid "else if"
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:10
+msgid "else"
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:14
+msgid "repeat %(number_of_times)s times"
+msgstr ""
+
+#: static/game/js/blocklyMessages.js:16
+msgid "Do some statements several times."
+msgstr ""
+
+#: static/game/js/button.js:19
+msgid "Try again"
+msgstr ""
+
+#: static/game/js/drawing.js:1101
+msgid "Error"
+msgstr ""
+
+#: static/game/js/drawing.js:1104
+msgid "Could not connect to server. Your internet might not be working properly."
+msgstr ""
+
+#: static/game/js/game.js:83
+msgid "You are not logged in. Your progress won't be saved."
+msgstr ""
+
+#: static/game/js/game.js:87
+msgid "Try solving this one..."
+msgstr ""
+
+#: static/game/js/game.js:91
+msgid "Night Level %(level_name)s"
+msgstr ""
+
+#: static/game/js/game.js:93
+msgid "Level %(level_name)s"
+msgstr ""
+
+#: static/game/js/game.js:107
+msgid "In Night Mode you can only see a very short distance. We've given you more blocks to help you find your way!"
+msgstr ""
+
+#: static/game/js/game.js:121 static/game/js/game.js:615
+#: static/game/js/level_editor.js:863
+msgid "Play"
+msgstr ""
+
+#: static/game/js/game.js:620
+msgid "Pause"
+msgstr ""
+
+#: static/game/js/game.js:625
+msgid "Resume"
+msgstr ""
+
+#: static/game/js/game.js:634
+msgid "Fast"
+msgstr ""
+
+#: static/game/js/game.js:639
+msgid "Slow"
+msgstr ""
+
+#: static/game/js/game.js:667
+msgid "Unmute"
+msgstr ""
+
+#: static/game/js/game.js:672
+msgid "Mute"
+msgstr ""
+
+#: static/game/js/game.js:813
+msgid "Run the following commands on the van object %(var_name)s, e.g. %(example)s"
+msgstr ""
+
+#: static/game/js/game.js:822
+msgid "Movement"
+msgstr ""
+
+#: static/game/js/game.js:832
+msgid "Position"
+msgstr ""
+
+#: static/game/js/game.js:841
+msgid "where %(arg_name)s is '%(red_color)s' or '%(green_color)s'"
+msgstr ""
+
+#: static/game/js/game.js:856
+msgid "where %(arg_name)s is '%(forward)s', '%(left)s', or '%(right)s'"
+msgstr ""
+
+#: static/game/js/game.js:867
+msgid "Python Commands"
+msgstr ""
+
+#: static/game/js/level_editor.js:50 static/game/js/level_editor.js:2452
+msgid "Add road"
+msgstr ""
+
+#: static/game/js/level_editor.js:51 static/game/js/level_editor.js:820
+msgid "Delete road"
+msgstr ""
+
+#: static/game/js/level_editor.js:52 static/game/js/level_editor.js:811
+#: static/game/js/level_editor.js:2470
+msgid "Mark end"
+msgstr ""
+
+#: static/game/js/level_editor.js:53 static/game/js/level_editor.js:809
+#: static/game/js/level_editor.js:2468
+msgid "Mark start"
+msgstr ""
+
+#: static/game/js/level_editor.js:341
+msgid "White"
+msgstr ""
+
+#: static/game/js/level_editor.js:343
+msgid "Brown"
+msgstr ""
+
+#: static/game/js/level_editor.js:694 static/game/js/level_editor.js:2456
+#: static/game/js/level_editor.js:2474
+msgid "Oh no!"
+msgstr ""
+
+#: static/game/js/level_editor.js:694
+msgid "You used some invalid characters."
+msgstr ""
+
+#: static/game/js/level_editor.js:695
+msgid "Try saving your level again using only letters and numbers."
+msgstr ""
+
+#: static/game/js/level_editor.js:727
+msgid "Overwriting"
+msgstr ""
+
+#: static/game/js/level_editor.js:727
+msgid "Warning"
+msgstr ""
+
+#: static/game/js/level_editor.js:728
+msgid "Level %(level_name)s already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: static/game/js/level_editor.js:795
+msgid "To get started, draw a road."
+msgstr ""
+
+#: static/game/js/level_editor.js:796
+msgid "Click on the square you want the road to start from. Then, without letting go of the mouse button, drag to the square you’d like the road to end on. Do this as many times as you like to add new sections of road."
+msgstr ""
+
+#: static/game/js/level_editor.js:800
+msgid "In %(map_icon)s%(map_label)s menu, click %(mark_start_icon)s%(mark_start_label)s and select a square for your road to start from. The starting point can only be placed on dead ends. You need a road first before adding a starting point. Make sure you use %(mark_end_icon)s%(mark_end_label)s to select a final destination. Setting a fuel level means the route will need to be short enough for the fuel not to run out."
+msgstr ""
+
+#: static/game/js/level_editor.js:807 static/game/js/level_editor.js:2450
+#: static/game/js/level_editor.js:2466
+msgid "Map"
+msgstr ""
+
+#: static/game/js/level_editor.js:816
+msgid "To remove road, click the %(delete_road_icon)s%(delete_road_label)s button and select a section to get rid of."
+msgstr ""
+
+#: static/game/js/level_editor.js:825
+msgid "Click %(random_icon)s%(random_label)s if you want the computer to create a random route for you."
+msgstr ""
+
+#: static/game/js/level_editor.js:827
+msgid "Random"
+msgstr ""
+
+#: static/game/js/level_editor.js:832
+msgid "Select %(scenery_icon)s%(scenery_label)s and choose trees, bushes and more to place around your road. These will show in the top left corner - drag them into place. Delete items by dragging them into the bin in the bottom right. To rotate a traffic light, simply double click on it. Remember, using the traffic lights is not covered until level 44."
+msgstr ""
+
+#: static/game/js/level_editor.js:838
+msgid "Scenery"
+msgstr ""
+
+#: static/game/js/level_editor.js:843
+msgid "Choose a character to play with from the %(character_icon)s%(character_label)s menu."
+msgstr ""
+
+#: static/game/js/level_editor.js:845
+msgid "Character"
+msgstr ""
+
+#: static/game/js/level_editor.js:850
+msgid "Select which blocks of code you want to be used to create a route for your character from the %(blocks_icon)s%(blocks_label)s menu."
+msgstr ""
+
+#: static/game/js/level_editor.js:854
+msgid "Blocks"
+msgstr ""
+
+#: static/game/js/level_editor.js:859
+msgid "When you're ready click %(play_icon)s%(play_label)s, or %(save_icon)s%(save_label)s your road or %(share_icon)s%(share_label)s it with a friend. Don't forget to choose a good name for it!"
+msgstr ""
+
+#: static/game/js/level_editor.js:865
+msgid "Save"
+msgstr ""
+
+#: static/game/js/level_editor.js:867
+msgid "Share"
+msgstr ""
+
+#: static/game/js/level_editor.js:872
+msgid "%(quit_icon)s%(quit_label)s will take you back to the Rapid Router homepage."
+msgstr ""
+
+#: static/game/js/level_editor.js:875
+msgid "Quit"
+msgstr ""
+
+#: static/game/js/level_editor.js:957 static/game/js/level_editor.js:995
+msgid "Group %(cow_group)s"
+msgstr ""
+
+#: static/game/js/level_editor.js:2446
+msgid "In %(map_icon)s%(map_label)s menu, click on %(add_road_icon)s%(add_road_label)s. Draw a road by clicking on a square then dragging to another square."
+msgstr ""
+
+#: static/game/js/level_editor.js:2456
+msgid "You forgot to create a road."
+msgstr ""
+
+#: static/game/js/level_editor.js:2462
+msgid "In %(map_icon)s%(map_label)s menu, click on %(mark_start_icon)s%(mark_start_label)s or %(mark_end_icon)s%(mark_end_label)s then select the square where you want the road to start or end."
+msgstr ""
+
+#: static/game/js/level_editor.js:2474
+msgid "You forgot to mark the start and end points."
+msgstr ""
+
+#: static/game/js/level_editor.js:2480 static/game/js/level_editor.js:2498
+msgid "Something is wrong..."
+msgstr ""
+
+#: static/game/js/level_editor.js:2481
+msgid "There is no way to get from the start to the destination."
+msgstr ""
+
+#: static/game/js/level_editor.js:2482
+msgid "Edit your level to allow the driver to get to the end."
+msgstr ""
+
+#: static/game/js/level_editor.js:2490
+msgid "Go to %(code_icon)s%(code_label)s and select some to use. Remember to include the move and turn commands!"
+msgstr ""
+
+#: static/game/js/level_editor.js:2494
+msgid "Code"
+msgstr ""
+
+#: static/game/js/level_editor.js:2499
+msgid "You haven't selected any blocks to use in your level"
+msgstr ""
+
+#: static/game/js/level_editor.js:2514 static/game/js/level_editor.js:2517
+#: static/game/js/level_editor.js:2525
+msgid "Sharing"
+msgstr ""
+
+#: static/game/js/level_editor.js:2514
+msgid "Please save your level before continuing!"
+msgstr ""
+
+#: static/game/js/level_editor.js:2517
+msgid "Please save your latest changes!"
+msgstr ""
+
+#: static/game/js/level_editor.js:2526
+msgid "You do not own this level. If you would like to share it you will first have to save your own copy!"
+msgstr ""
+
+#: static/game/js/level_editor.js:2539
+msgid "Unfortunately you need to be logged in to save levels."
+msgstr ""
+
+#: static/game/js/level_editor.js:2542
+msgid "Unfortunately you need to be logged in to load levels."
+msgstr ""
+
+#: static/game/js/level_editor.js:2545
+msgid "Unfortunately you need to be logged in to share levels."
+msgstr ""
+
+#: static/game/js/level_editor.js:2549
+msgid "You can log in as a %(student_login_url)s, %(teacher_login_url)s or %(independent_login_url)s."
+msgstr ""
+
+#: static/game/js/level_editor.js:2551
+msgctxt "login_url"
+msgid "student"
+msgstr ""
+
+#: static/game/js/level_editor.js:2552
+msgctxt "login_url"
+msgid "teacher"
+msgstr ""
+
+#: static/game/js/level_editor.js:2554
+msgctxt "login_url"
+msgid "independent student"
+msgstr ""
+
+#: static/game/js/level_editor.js:2559
+msgid "Not logged in"
+msgstr ""
+
+#: static/game/js/level_editor.js:2567
+msgid "Sharing as an independent student"
+msgstr ""
+
+#: static/game/js/level_editor.js:2568
+msgid "Sorry but as an independent student you'll need to join a school or club to share your levels with others."
+msgstr ""
+
+#: static/game/js/level_editor.js:2804
+msgid "Click %(help_icon)s%(help_label)s for clues on getting started."
+msgstr ""
+
+#: static/game/js/level_editor.js:2806
+msgid "Help"
+msgstr ""
+
+#: static/game/js/level_editor.js:2811
+msgid "Welcome to the Level editor!"
+msgstr ""
+
+#: static/game/js/level_editor.js:2823
+msgid "Welcome back!"
+msgstr ""
+
+#: static/game/js/level_editor.js:2824
+msgid "Would you like to edit or play with your design?"
+msgstr ""
+
+#: static/game/js/model.js:158
+msgid "You ran into a cow! Keep in mind that cows can appear anywhere on the map."
+msgstr ""
+
+#: static/game/js/model.js:166
+msgid "Your first move was a crash. What went wrong?"
+msgstr ""
+
+#: static/game/js/model.js:169
+msgid "Your first move was right. What went wrong after that?"
+msgid_plural "Your first %(correct_steps)s moves worked. What went wrong after that?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: static/game/js/model.js:193
+msgid "You ran out of fuel! Try to find a shorter route to the destination."
+msgstr ""
+
+#: static/game/js/model.js:231
+msgid "Uh oh, you just sent the van through a red light! Stick to the Highway Code - the van must wait for green."
+msgstr ""
+
+#: static/game/js/model.js:395
+msgid "You have already delivered to that destination! You must only deliver once to each destination."
+msgstr ""
+
+#: static/game/js/model.js:490
+msgid "The van ran out of instructions before it reached a destination. Make sure there are enough instructions to complete the delivery."
+msgstr ""
+
+#: static/game/js/model.js:507
+msgid "The van visited the destination, but didn't stop there!"
+msgstr ""
+
+#: static/game/js/model.js:518
+msgid "There are destinations that have not been delivered to. Ensure you visit all destinations and use the deliver command at each one."
+msgstr ""
+
+#: static/game/js/model.js:533
+msgid "Make sure your blocks are connected to the Start block."
+msgstr ""
+
+#: static/game/js/pathFinder.js:72
+msgid "Try finding a shorter route to the destination."
+msgstr ""
+
+#: static/game/js/pathFinder.js:74
+msgid "Try creating a simpler program."
+msgstr ""
+
+#: static/game/js/pathFinder.js:76
+msgid "That solution isn't quite right. Read the level instructions or click Help."
+msgstr ""
+
+#: static/game/js/pathFinder.js:78
+msgid "Congratulations! You've aced it."
+msgstr ""
+
+#: static/game/js/program.js:61
+msgid "It looks as though your program's been running a while. Check your repeat loops are okay."
+msgstr ""
+
+#: static/game/js/sharing.js:10 static/game/js/sharing.js:11
+msgid "Yes"
+msgstr ""
+
+#: static/game/js/sharing.js:12
+msgid "No"
+msgstr ""
+
+#: static/game/js/sharing.js:141
+msgid "Unshare with all"
+msgstr ""
+
+#: static/game/js/sharing.js:147
+msgid "Share with all"
+msgstr ""
+
