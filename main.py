@@ -17,9 +17,9 @@ pygame.display.set_caption("Menu")
 BGMM = scale_image(pygame.image.load("assets/Background-MM.png"), 1.2)
 BGO = scale_image(pygame.image.load("assets/Background-O.JPG"), 1.2)
 BGP = scale_image(pygame.image.load("assets/Background-P.JPG"), 1.2)
-BGS = scale_image(pygame.image.load("assets/Background-S.JPG"), 1.2)
+BGS = scale_image(pygame.image.load("assets/Background-S.JPG"), 0.9)
 BGC = scale_image(pygame.image.load("imgs/mechanics.JPG"), 2.5)
-
+BGcontrols = scale_image(pygame.image.load("imgs/arcade.JPG"), 1)
 
 
 def get_font(size): # Returns Press-Start-2P in the desired size
@@ -219,6 +219,9 @@ def play(background, car_colour):
           f"Vel: {round(player_car.vel, 1)}px/s", 1, (255, 255, 255))
       win.blit(vel_text, (10, HEIGHT - vel_text.get_height() - 10))
 
+
+
+
       player_car.draw(win)
       computer_car.draw(win)
       pygame.display.update()
@@ -375,7 +378,7 @@ def customize():
 
 def scoreboard():
     while True:
-        SCREEN.blit(BGS, (-500, -50))
+        SCREEN.blit(BGS, (-700, -50))
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
@@ -528,16 +531,18 @@ def circuit_menu(car_colour):
 
 def controls(background, car_colour):
     while True:
+        SCREEN.blit(BGcontrols, (-700,-50))
         CONTROLS_MOUSE_POS = pygame.mouse.get_pos()
 
-        SCREEN.fill("white")
-
-        CONTROLS_TEXT = get_font(10).render("This is the Controls screen.", True, "Black")
+        
+        CONTROLS_TEXT = get_font(50).render("CONTROLS", True, "#000000")
         CONTROLS_RECT = CONTROLS_TEXT.get_rect(center=(400, 100))
         SCREEN.blit(CONTROLS_TEXT, CONTROLS_RECT)
 
-        CONTROLS_BACK = Button(image=None, pos=(400, 200), 
-                            text_input="BACK", font=get_font(10), base_color="Black", hovering_color="Green")
+
+
+        CONTROLS_BACK = Button(image=None, pos=(400, 650), 
+                            text_input="BACK", font=get_font(40), base_color="Black", hovering_color="Green")
 
         CONTROLS_BACK.changeColor(CONTROLS_MOUSE_POS)
         CONTROLS_BACK.update(SCREEN)
