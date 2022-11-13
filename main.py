@@ -1,8 +1,12 @@
 import pygame, sys
-from button import Button
-from utils import scale_image, blit_rotate_center, blit_text_center
-import time
 import math
+import sys
+import json
+import time
+import pygame
+from button import Button
+from utils import blit_rotate_center, blit_text_center, scale_image
+
 pygame.init()
 
 
@@ -20,6 +24,7 @@ BGP = scale_image(pygame.image.load("assets/Background-P.JPG"), 1.2)
 BGS = scale_image(pygame.image.load("assets/Background-S.JPG"), 0.9)
 BGC = scale_image(pygame.image.load("imgs/mechanics.JPG"), 2.5)
 BGcontrols = scale_image(pygame.image.load("imgs/arcade.JPG"), 1)
+MAIN_FONT = pygame.font.SysFont("comicsans", 44)
 
 
 def get_font(size): # Returns Press-Start-2P in the desired size
@@ -53,33 +58,51 @@ def play(background, car_colour):
 
 
   class GameInfo:
-      LEVELS = 4
-
+      LEVELS = 10
+      
       def __init__(self, level=1):
           self.level = level
+          self.score = 0
           self.started = False
           self.level_start_time = 0
+          self.level_pause_time = 0
 
+          
+
+         
+
+      def game_paused(self):
+          self.level_pause_time = time.time()
+          #not working :(
+          
       def next_level(self):
           self.level += 1
+          self.score += 10
           self.started = False
 
       def reset(self):
           self.level = 1
+          self.score = 0
           self.started = False
           self.level_start_time = 0
+          
 
       def game_finished(self):
           return self.level > self.LEVELS
+          
 
       def start_level(self):
           self.started = True
           self.level_start_time = time.time()
+          
+          
 
       def get_level_time(self):
           if not self.started:
               return 0
-          return round(time.time() - self.level_start_time)
+          A =  time.time() - self.level_start_time
+          return round(A)
+        
 
 
   class AbstractCar:
@@ -207,20 +230,17 @@ def play(background, car_colour):
       for img, pos in images:
           win.blit(img, pos)
 
-      level_text = MAIN_FONT.render(
-          f"Level {game_info.level}", 1, (255, 255, 255))
-      win.blit(level_text, (10, HEIGHT - level_text.get_height() - 70))
+      level_text = MAIN_FONT.render(f"Level {game_info.level}", 1, (255, 255, 255))
+      win.blit(level_text, (10, HEIGHT - level_text.get_height() - 100))
+                     
+      time_text = MAIN_FONT.render(f"Time: {game_info.get_level_time()}s", 1, (255, 255, 255))
+      win.blit(time_text, (10, HEIGHT - time_text.get_height() - 70))
 
-      time_text = MAIN_FONT.render(
-          f"Time: {game_info.get_level_time()}s", 1, (255, 255, 255))
-      win.blit(time_text, (10, HEIGHT - time_text.get_height() - 40))
-
-      vel_text = MAIN_FONT.render(
-          f"Vel: {round(player_car.vel, 1)}px/s", 1, (255, 255, 255))
-      win.blit(vel_text, (10, HEIGHT - vel_text.get_height() - 10))
-
-
-
+      vel_text = MAIN_FONT.render(f"Vel: {round(player_car.vel, 1)}px/s", 1, (255, 255, 255))
+      win.blit(vel_text, (10, HEIGHT - vel_text.get_height() - 40))
+   
+      score_text = MAIN_FONT.render(f"Score {game_info.score}", 1, (255, 255, 255))
+      win.blit(score_text, (10, HEIGHT - score_text.get_height() - 10))
 
       player_car.draw(win)
       computer_car.draw(win)
@@ -253,7 +273,7 @@ def play(background, car_colour):
       computer_finish_poi_collide = computer_car.collide(
           FINISH_MASK, *FINISH_POSITION)
       if computer_finish_poi_collide != None:
-          blit_text_center(WIN, MAIN_FONT, "You lost!")
+          blit_text_center(WIN, MAIN_FONT, f"You lost. Score: {game_info.score}")
           pygame.display.update()
           pygame.time.wait(5000)
           game_info.reset()
@@ -288,7 +308,7 @@ def play(background, car_colour):
 
       while not game_info.started:
           blit_text_center(
-              WIN, MAIN_FONT, f"Press any key to start level {game_info.level}!")
+              WIN, MAIN_FONT, f"Press any key to start level {game_info.level}")
           pygame.display.update()
           for event in pygame.event.get():
               if event.type == pygame.QUIT:
@@ -305,7 +325,28 @@ def play(background, car_colour):
 
       if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_ESCAPE:
-          ingame_menu(background, car_colour)
+          game_info.game_paused()
+          paused = True
+          while paused: 
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    quit()
+                
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_c:
+                        paused = False
+                    
+                    if event.key == pygame.K_q:
+                        pygame.quit()
+                        quit()
+
+                    if event.key == pygame.K_m:
+                        main_menu()
+            blit_text_center(WIN, MAIN_FONT, "Paused")
+            pygame.display.update()                       
+                
+
 
         
       move_player(player_car)
@@ -314,7 +355,7 @@ def play(background, car_colour):
       handle_collision(player_car, computer_car, game_info)
 
       if game_info.game_finished():
-          blit_text_center(WIN, MAIN_FONT, "You won the game!")
+          blit_text_center(WIN, MAIN_FONT, f"You Won. Score: {game_info.score}")
           pygame.time.wait(5000)
           game_info.reset()
           player_car.reset()
@@ -556,5 +597,59 @@ def controls(background, car_colour):
                     ingame_menu(background, car_colour)
 
         pygame.display.update()
+
+def pause():
+
+    paused = True
+
+    while paused:
+        
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_c:
+                    paused = False
+                
+                elif event.key == pygame.K_q:
+                    pygame.quit()
+                    quit()
+
+
+        blit_text_center(WIN, MAIN_FONT, "Paused")
+        pygame.display.update()
+        
+def get_player_name():
+    clock = pygame.time.Clock()
+    screen = pygame.display.set_mode([800,800])
+    base_font = pygame.font.Font(None,32)
+    player_text = ''
+
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_BACKSPACE:
+                   player_text = player_text[:-1]
+                else:
+                   player_text += event.unicode
+    
+        screen.fill((0,0,0))
+        text_surface = base_font.render(player_text,True,(255,255,255))
+        screen.blit(text_surface,(0,0))
+
+        pygame.display.flip()
+        clock.tick(60)
+
+
+
+
+
+
+
 
 main_menu()

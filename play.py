@@ -282,7 +282,7 @@ def game():
 
       if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_ESCAPE:
-          main_menu()
+          break #change this in main.p
         
           
 
